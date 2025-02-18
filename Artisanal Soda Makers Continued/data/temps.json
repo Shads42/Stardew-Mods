@@ -1,0 +1,113 @@
+// objects
+
+"{{ModId}}_": {
+    "Name": "{{ModId}}_",
+    "Type": "Basic",
+    "Category": "-26", 
+    "SpriteIndex": ,
+    "DisplayName": "{{i18n:_Name}}",
+    "Description": "{{i18n:_Desc}}",
+    "Texture": "{{ModId}}/Objects",
+    "Price": ,
+    "Edibility": 120,
+    "IsDrink": true,
+    "ContextTags": [
+        "color_",
+        "drink_item",
+        "soda_item",
+        "sodamaker_product"
+    ],
+    "Buffs": [
+        {
+            "BuffId": null,
+            "IconTexture": null,
+            "IconSpriteIndex": 0,
+            "Duration": 360,
+            "IsDebuff": false,
+            "GlowColor": null,
+            "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 2,
+                "ForagingLevel": 2,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+            }
+        }
+    ]
+},
+"{{ModId}}_": {
+    "Name": "{{ModId}}_",
+    "Type": "Basic",
+    "Category": "-26", 
+    "SpriteIndex": ,
+    "DisplayName": "{{i18n:_Name}}",
+    "Description": "{{i18n:_Desc}}",
+    "Texture": "{{ModId}}/Objects",
+    "Price": ,
+    "Edibility": 120,
+    "IsDrink": true,
+    "ContextTags": [
+        "color_",
+        "drink_item",
+        "cream_soda_item",
+        "cream_sodamaker_product"
+    ],
+    "Buffs": [
+        {
+            "BuffId": null,
+            "IconTexture": null,
+            "IconSpriteIndex": 0,
+            "Duration": 360,
+            "IsDebuff": false,
+            "GlowColor": null,
+            "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 1,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 1,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 1
+            }
+        }
+    ]
+},
+
+"{{ModId}}_": {
+    "Name": "{{ModId}}_",
+    "Type": "Basic",
+    "Category": "-26", 
+    "SpriteIndex": ,
+    "DisplayName": "{{i18n:_Name}}",
+    "Description": "{{i18n:Syrup_Desc}}",
+    "Texture": "{{ModId}}/Objects",
+    "Price": ,
+    "Edibility": -300,
+    "IsDrink": true,
+    "ContextTags": [
+        "color_",
+        "syrup_item",
+        "syrupmaker_product"
+    ]
+},
+
+
+
+// fruit tree
+"{{ModId}}_": {
+    "DisplayName": "{{i18n:_Name}}",
+    "Seasons": [],
+    "Fruit": [{"ItemId": ""}],
+    "Texture": "{{ModId}}/trees",
+    "TextureSpriteRow": 0
+}
+
+//

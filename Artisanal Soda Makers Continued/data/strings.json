@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "{{ModId}}_SodaString": "{{i18n:FruitSoda_Flavored}}",
+                "{{ModId}}_CreamSodaString": "{{i18n:FruitCreamSoda_Flavored}}",
+                "{{ModId}}_ColaString": "{{i18n:FruitCola_Flavored}}",
+                "{{ModId}}_SparklingWaterString": "{{i18n:SparklingWater_Flavored}}",
+                "{{ModId}}_SyrupString": "{{i18n:FruitSyrup_Flavored}}"
+            }
+        }
+    ]
+}

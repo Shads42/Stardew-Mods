@@ -1,0 +1,17 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+    
+        {
+            "LogName": "Load default pack spritesheets",
+            "Action": "Load",
+            "Target": "{{ModId}}/machines, {{ModId}}/objects, {{ModId}}/trees",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load default pack data",
+            "Action": "Include",
+            "FromFile": "data/objects.json, data/strings.json, "
+        }
+    ]
+}
