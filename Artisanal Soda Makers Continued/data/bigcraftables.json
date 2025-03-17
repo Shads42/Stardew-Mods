@@ -1,12 +1,37 @@
 {
     "Changes": [
-        // add machines to big craftables
         {
-
+            "LogName": "Add machines to Big Craftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_Pump": {},
+                "{{ModId}}_Carbonator": {},
+                "{{ModId}}_ArtisanalSodaMaker": {},
+                "{{ModId}}_ColaMaker": {},
+                "{{ModId}}_CreamSodaMaker": {},
+                "{{ModId}}_SyrupMaker": {}
+            }
         },
         // add machines to crafting recipes
         {
-            
+            "LogName": "Add machine recipes to Crafting Recipes",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                // 335 x5
+                "{{ModId}}_Pump": "335 5/Home/{{ModId}}_Pump/true/null",
+                // 335 x2, 382 x5
+                "{{ModId}}_Carbonator": "335 2 382 5/Home/{{ModId}}_Carbonator/true/null",
+                // 335 x2, 382 x5
+                "{{ModId}}_ArtisanalSodaMaker": "335 2 382 5/Home/{{ModId}}_ArtisanalSodaMaker/true/null",
+                // 335 x2, 382 x5
+                "{{ModId}}_ColaMaker": "335 2 382 5/Home/{{ModId}}_ColaMaker/true/null",
+                // 335 x2 382 x5
+                "{{ModId}}_CreamSodaMaker": "335 2 382 5/Home/{{ModId}}_CreamSodaMaker/true/null",
+                // 335 x2, 382 x5
+                "{{ModId}}_SyrupMaker": "335 2 382 5/Home/{{ModId}}_SyrupMaker/true/null"
+            }
         }
     ]
 }
