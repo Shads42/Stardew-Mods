@@ -5,12 +5,54 @@
             "Action": "EditData",
             "Target": "Data/BigCraftables",
             "Entries": {
-                "{{ModId}}_Pump": {},
-                "{{ModId}}_Carbonator": {},
-                "{{ModId}}_ArtisanalSodaMaker": {},
-                "{{ModId}}_ColaMaker": {},
-                "{{ModId}}_CreamSodaMaker": {},
-                "{{ModId}}_SyrupMaker": {}
+                "{{ModId}}_Pump": {
+                    "Name": "{{ModId}}_Pump",
+                    "DisplayName": "{{i18n:Pump_Name}}",
+                    "Description": "{{i18n:Pump_Desc}}",
+                    "Texture": "Mods\\Shads42.ArtisanalSodaMakersContinued\\machines",
+                    "SpriteIndex": 32,
+                    "IsLamp": false
+                },
+                "{{ModId}}_Carbonator": {
+                    "Name": "{{ModId}}_Carbonator",
+                    "DisplayName": "{{i18n:Carbonator_Name}}",
+                    "Description": "{{i18n:Carbonator_Desc}}",
+                    "Texture": "Mods\\{{ModId}}\\machines",
+                    "SpriteIndex": 8,
+                    "IsLamp": false
+                },
+                "{{ModId}}_ArtisanalSodaMaker": {
+                    "Name": "{{ModId}}_ArtisanalSodaMaker",
+                    "DisplayName": "{{i18n:SodaMaker_Name}}",
+                    "Description": "{{i18n:SodaMaker_Desc}}",
+                    "Texture": "Mods\\{{ModId}}\\machines",
+                    "SpriteIndex": 0,
+                    "IsLamp": false
+                },
+                "{{ModId}}_ColaMaker": {
+                    "Name": "{{ModId}}_ColaMaker",
+                    "DisplayName": "{{i18n:ColaMaker_Name}}",
+                    "Description": "{{i18n:ColaMaker_Desc}}",
+                    "Texture": "Mods\\{{ModId}}\\machines",
+                    "SpriteIndex": 16,
+                    "IsLamp": false
+                },
+                "{{ModId}}_CreamSodaMaker": {
+                    "Name": "{{ModId}}_CreamSodaMaker",
+                    "DisplayName": "{{i18n:CreamSodaMaker_Name}}",
+                    "Description": "{{i18n:CreamSodaMaker_Desc}}",
+                    "Texture": "Mods\\{{ModId}}\\machines",
+                    "SpriteIndex": 24,
+                    "IsLamp": false
+                },
+                "{{ModId}}_SyrupMaker": {
+                    "Name": "{{ModId}}_SyrupMaker",
+                    "DisplayName": "{{i18n:SyrupMaker_Name}}",
+                    "Description": "{{i18n:SyrupMaker_Desc}}",
+                    "Texture": "Mods\\{{ModId}}\\machines",
+                    "SpriteIndex": 40,
+                    "IsLamp": false
+                }
             }
         },
         // add machines to crafting recipes

@@ -1,7 +1,13 @@
 {
     "Format": "2.0.0",
+    "DynamicTokens": [
+        // dynamic tokens for stuff
+        {
+            "Name": "120Percent",
+            "Value": "1.2"
+        }
+    ],
     "Changes": [
-    
         {
             "LogName": "Load default pack spritesheets",
             "Action": "Load",
@@ -11,7 +17,7 @@
         {
             "LogName": "Load default pack data",
             "Action": "Include",
-            "FromFile": "data/objects.json, data/strings.json, "
+            "FromFile": "data/objects.json, data/strings.json, data/bigcraftables.json"
         }
     ]
 }

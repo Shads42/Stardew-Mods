@@ -110,4 +110,45 @@
     "TextureSpriteRow": 0
 }
 
-//
+// object recipe
+{
+    "itemName": " materials /Home/{{ModId}}_MachineName/true/null"
+}
+
+// big craftable
+{
+    "{{ModId}}_": {
+        "Name": "",
+        "DisplayName": "",
+        "Description": "",
+        "Texture": "Mods\\{{ModId}}\\machines",
+        "SpriteIndex": ,
+        "IsLamp": false
+    }
+}
+
+
+// machine rule framework
+{
+    "Id": "{{ModId}}_",
+    "Triggers": [
+        {
+            "Id": "",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O)"
+        }
+    ],
+    "OutputItem": {
+        "Id": "{{ModId}}_",
+        "ItemId": "(O){{ModId}}_",
+        "Frames": ,
+        "CustomData": {
+
+        },
+        "UseFirstValidOutput": true,
+        "MinutesUntilReady": 
+    },
+
+    // AdditionalConsumedItems: { {ItemId, Required Count, Invalid Message} }
+}
+
