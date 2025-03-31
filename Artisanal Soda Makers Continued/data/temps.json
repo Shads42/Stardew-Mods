@@ -128,27 +128,110 @@
 }
 
 
-// machine rule framework
+// syrup machine rule framework
+{"{{ModId}}_WAG_":{
+    "Id": "{{ModId}}_",
+    "Triggers": [
+        {
+            "Id": "WAG",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O){{WAGId}}_"
+        }
+    ],
+    
+    "OutputItem": [
+        {
+            "Id": "{{ModId}}_",
+            "ItemId": "(O){{ModId}}_",
+            "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+            }     
+        }
+    ],
+    "MinutesUntilReady": 1000,
+},}
+    // AdditionalConsumedItems: { {ItemId, Required Count, Invalid Message} }
+
+// soda machine rule framework
+"{{ModId}}_WAG_" :{
+    "Id": "{{ModId}}_",
+    "Triggers": [
+        {
+            "Id": "WAG",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O){{WAGId}}"
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "{{ModId}}_",
+            "ItemId": "(O){{ModId}}_",
+            "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+            }     
+        }
+    ],
+    "MinutesUntilReady": 1500
+},
+
+// cola maker framework 
+
 {
     "Id": "{{ModId}}_",
     "Triggers": [
         {
             "Id": "",
             "Trigger": "ItemPlacedInMachine",
-            "RequiredItemId": "(O)"
+            "RequiredItemId": "(O){{ModId}}_"
         }
     ],
-    "OutputItem": {
-        "Id": "{{ModId}}_",
-        "ItemId": "(O){{ModId}}_",
-        "Frames": ,
-        "CustomData": {
+    "OutputItem": [
+        {
+            "Id": "{{ModId}}_",
+            "ItemId": "(O){{ModId}}_",
+            "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+            }     
+        }
+    ],
+    "MinutesUntilReady": 2400
+},
 
-        },
-        "UseFirstValidOutput": true,
-        "MinutesUntilReady": 
-    },
+// cream soda maker framework
 
-    // AdditionalConsumedItems: { {ItemId, Required Count, Invalid Message} }
-}
-
+"{{ModId}}_WAG_": {
+    "Id": "{{ModId}}_",
+    "Triggers": [
+        {
+            "Id": "WAG",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O){{WAGId}}_"
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "{{ModId}}_",
+            "ItemId": "(O){{ModId}}_",
+            "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+            }     
+        }
+    ],
+    "MinutesUntilReady": 1500
+},

@@ -1,0 +1,67 @@
+{
+   "Changes": [
+        {
+            "LogName": "Load Pump",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ModId}}_Pump": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "InteractMethod": null,
+                    "OutputRules": [
+                        {
+                            "Id": "SodaMakers_GenWater",
+                            "Triggers": [
+                                {
+                                    "Id": "PumpSetDown",
+                                    "Trigger": "MachinePutDown",
+                                    "RequiredItemId": null,
+                                    "RequiredTags": null,
+                                    "RequiredCount": 1,
+                                    "Condition": null
+                                },
+                                {
+                                    "Id": "PumpOutputCollected",
+                                    "Trigger": "OutputCollected",
+                                    "RequiredItemId": null,
+                                    "RequiredTags": null,
+                                    "RequiredCount": 1,
+                                    "Condition": null
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_FreshWater",
+                                    "ItemId": "(O){{ModId}}_FreshWater",
+                                    "MinStack": 5,
+                                    "MaxStack": 5
+                                }
+                            ],
+                            "MinutesUntilReady": 700,
+                            
+                        }
+                    ],
+                    "LoadEffects": [
+                        {
+                            "Id": "PumpDefaultLoad",
+                            "Frames": [1, 2, 3, 4, 5, 6, 7],
+                            "Interval": 200
+                        }
+                    ],
+                    "WorkingEffects": [
+                        {
+                            "Id": "PumpDefaultWork",
+                            "Frames": [1, 2, 3, 4, 5, 6, 7],        //[1, 2, 3, 4, 5, 6, 7] [33, 34, 35, 36, 37, 38, 39]
+                            "Interval": 200
+                            
+                        }
+                    ],
+                    "WorkingEffectsChance": 1,
+                    "WobbleWhileWorking": false
+                }
+            }
+            
+        }
+    ]
+}

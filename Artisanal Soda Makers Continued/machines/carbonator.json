@@ -1,0 +1,89 @@
+// define output for carbonator
+{
+    "Changes": [
+        {
+            "LogName": "Load Carbonator",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ModId}}_Carbonator": {
+                    "OutputRules": [
+                        {
+                            "Id": "{{ModId}}_SparklingWater",
+                            "Triggers": [
+                                {
+                                    "Id": "WaterPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O){{ModId}}_FreshWater"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_SparklingWater",
+                                    "ItemId": "(O){{ModId}}_SparklingWater",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)382",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 2,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Coal}}"
+                                    }
+                                }
+                            ], 
+                            "MinutesUntilReady": 300
+                            },
+                            {
+                                "Id": "{{ModId}}_FlavoredSparklingWater",
+                                "Triggers": [
+                                    {
+                                        "Id": "FruitPlacedInCarbonator",
+                                        "Trigger": "ItemPlacedInMachine",
+                                        "RequiredTags": ["category_fruits"],
+                                        "RequiredCount": 1
+                                    }
+                                ],
+                                "OutputItem": [
+                                    {
+                                        "Id": "{{ModId}}_FlavoredSparklingWater",
+                                        "ItemId": "(O){{ModId}}_FlavoredSparklingWater",
+                                        "ObjectInternalName": "{0} {{ModId}}_FlavoredSparklingWater",
+                                        "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_SparklingWaterString %PRESERVED_DISPLAY_NAME]",
+                                        "PreserveId": "DROP_IN",
+                                        "CopyPrice": true,
+                                        "PriceModifiers": [
+                                            {
+                                                "Id": "{{ModId}}_FlavoredSparklingWater",
+                                                "Modification": "Multiply",
+                                                "Amount": 1.2
+                                            },
+                                            {
+                                                "Id": "{{ModId}}_FlavoredSparklingWater",
+                                                "Modification": "Add",
+                                                "Amount": 15
+                                            }
+                                        ],
+                                        "CustomData": {
+                                            "selph.ExtraMachineConfig.RequirementId.1": "(O)382",
+                                            "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                            "selph.ExtraMachineConfig.RequirementId.2": "{{ModId}}_FreshWater",
+                                            "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_FlavoredWater}}",
+                                            "selph.ExtraMachineConfig.CopyColor": true
+                                        }
+                                    }
+                                ],
+                            "MinutesUntilReady": 800
+                            }
+                        ],
+                    "WorkingEffects": [
+                        {
+                            "Id": "CarbonatorDefaultWork",
+                            "Frames": [1, 2, 3, 4, 5, 6],
+                            "Interval": 200
+                        }
+                    ],
+                    "WorkingEffectsChance": 1,
+                    "WobbleWhileWorking": false
+
+                }
+            }
+        }
+    ]
+}

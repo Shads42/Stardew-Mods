@@ -1,0 +1,188 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add default fruit syrup",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_SyrupMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_FruitSyrup": {
+                    "Id": "{{ModId}}_FruitSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "FruitPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FruitSyrup",
+                            "ItemId": "(O){{ModId}}_FruitSyrup",
+                            "ObjectInternalName": "{0} {{ModId}}_FruitSyrup",
+                            "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_SyrupString %PRESERVED_DISPLAY_NAME]",
+                            "PreserveId": "DROP_IN",
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Id": "{{ModId}}_FruitSyrup",
+                                    "Modification": "Multiply",
+                                    "Amount": 1.2
+                                },
+                                {
+                                    "Id": "{{ModId}}_FruitSyrup",
+                                    "Modification": "Add",
+                                    "Amount": 50
+                                }
+                            ],
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}",
+                                "selph.ExtraMachineConfig.CopyColor": true
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                }
+            }
+        },
+        {
+            "LogName": "Add default fruit soda",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ArtisanalSodaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_FruitSoda" :{
+                    "Id": "{{ModId}}_FruitSoda",
+                    "Triggers": [
+                        {
+                            "Id": "FruitPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FruitSoda",
+                            "ItemId": "(O){{ModId}}_FruitSoda",
+                            "ObjectInternalName": "{0} {{ModId}}_FruitSoda",
+                            "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_SodaString %PRESERVED_DISPLAY_NAME]",
+                            "PreserveId": "DROP_IN",
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Id": "{{ModId}}_FruitSoda",
+                                    "Modification": "Multiply",
+                                    "Amount": 1.2
+                                },
+                                {
+                                    "Id": "{{ModId}}_FruitSoda",
+                                    "Modification": "Add",
+                                    "Amount": 100
+                                }
+                            ],
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}",
+                                "selph.ExtraMachineConfig.CopyColor": true
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                }
+            }
+        },
+        {
+            "LogName": "Add default fruit cream soda",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_CreamSodaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_FruitCreamSoda": {
+                    "Id": "{{ModId}}_FruitCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "FruitPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_fruits"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FruitCreamSoda",
+                            "ItemId": "(O){{ModId}}_FruitCreamSoda",
+                            "ObjectInternalName": "{0} {{ModId}}_FruitCreamSoda",
+                            "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_CreamSodaString %PRESERVED_DISPLAY_NAME]",
+                            "PreserveId": "DROP_IN",
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Id": "{{ModId}}_FruitSyrup",
+                                    "Modification": "Multiply",
+                                    "Amount": 1.2
+                                },
+                                {
+                                    "Id": "{{ModId}}_FruitSyrup",
+                                    "Modification": "Add",
+                                    "Amount": 275
+                                }
+                            ],
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}",
+                                "selph.ExtraMachineConfig.CopyColor": true
+                            
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                }
+            }
+        },
+        {
+            "LogName": "Add default fruit cola",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ColaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_FruitCola": {
+                    "Id": "{{ModId}}_FruitCola",
+                    "Triggers": [
+                        {
+                            "Id": "FruitSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_FruitSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FruitCola",
+                            "ItemId": "(O){{ModId}}_FruitCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}",
+                                "selph.ExtraMachineConfig.CopyColor": true
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                }
+            }
+        }
+    ]
+}

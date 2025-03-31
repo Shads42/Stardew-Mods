@@ -1,13 +1,13 @@
 {
     "Changes": [
         {
-            "LogName": "Add additional inputs for vanilla-based sodas",
-            "Action": "EditData",
-            "Target": "Data/Machines",
-            "TargetField": ["(BC){{ModId}}_ArtisanalSodaMaker", "OutputRules"],
+            "LogName": "Add inputs for Cornucopia extended trees crops",
+            "Action":"EditData",
+            "Target":"Data/Machines",
+            "TargetField":["(BC){{ModId}}_SyrupMaker", "OutputRules"],
             "Entries": {
-                "{{ModId}}_Cornucopia_BananaSoda": {
-                    "Id": "{{ModId}}_BananaSoda",
+                "{{ModId}}_Cornucopia_BananaSyrup":{
+                    "Id": "{{ModId}}_BananaSyrup",
                     "Triggers": [
                         {
                             "Id": "PlantainInMachine",
@@ -17,29 +17,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_BananaSoda",
-                            "ItemId": "(O){{ModId}}_BananaSoda",
+                            "Id": "{{ModId}}_BananaSyrup",
+                            "ItemId": "(O){{ModId}}_BananaSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
-                }
-            }
-        },
-        {  
-            "LogName": "Add additional inputs for vanilla-based sodas",
-            "Action": "EditData",
-            "Target": "Data/Machines",
-            "TargetField": ["(BC){{ModId}}_ArtisanalSodaMaker", "OutputRules"],
-            "Entries": {
-                "{{ModId}}_BreadfruitSoda": {
-                    "Id": "{{ModId}}_BreadfruitSoda",
+                    "MinutesUntilReady": 1000
+                },
+                "{{ModId}}_BreadfruitSyrup":{
+                    "Id": "{{ModId}}_BreadfruitSyrup",
                     "Triggers": [
                         {
                             "Id": "BreadfruitInMachine",
@@ -49,21 +39,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_BreadfruitSoda",
-                            "ItemId": "(O){{ModId}}_BreadfruitSoda",
+                            "Id": "{{ModId}}_BreadfruitSyrup",
+                            "ItemId": "(O){{ModId}}_BreadfruitSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_DragonSoda": {
-                    "Id": "{{ModId}}_DragonSoda",
+                "{{ModId}}_DragonSyrup":{
+                    "Id": "{{ModId}}_DragonSyrup",
                     "Triggers": [
                         {
                             "Id": "DragonFruitInMachine",
@@ -73,45 +61,41 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_DragonSoda",
-                            "ItemId": "(O){{ModId}}_DragonSoda",
+                            "Id": "{{ModId}}_DragonSyrup",
+                            "ItemId": "(O){{ModId}}_DragonSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_DurianSoda": {
-                    "Id": "{{ModId}}_DurianSoda",
+                "{{ModId}}_DurianSyrup":{
+                    "Id": "{{ModId}}_DurianSyrup",
                     "Triggers": [
                         {
-                            "Id": "DurianInMachine",
+                            "Id": "DurianPlacedInMachine",
                             "Trigger": "ItemPlacedInMachine",
                             "RequiredItemId": "(O)Cornucopia_Durian"
                         }
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_DurianSoda",
-                            "ItemId": "(O){{ModId}}_DurianSoda",
+                            "Id": "{{ModId}}_DurianSyrup",
+                            "ItemId": "(O){{ModId}}_DurianSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_FigSoda": {
-                    "Id": "{{ModId}}_FigSoda",
+                "{{ModId}}_FigSyrup":{
+                    "Id": "{{ModId}}_FigSyrup",
                     "Triggers": [
                         {
                             "Id": "FigInMachine",
@@ -121,21 +105,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_FigSoda",
-                            "ItemId": "(O){{ModId}}_FigSoda",
+                            "Id": "{{ModId}}_FigSyrup",
+                            "ItemId": "(O){{ModId}}_FigSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_GrapefruitSoda": {
-                    "Id": "{{ModId}}_GrapefruitSoda",
+                "{{ModId}}_GrapefruitSyrup":{
+                    "Id": "{{ModId}}_GrapefruitSyrup",
                     "Triggers": [
                         {
                             "Id": "GrapefruitInMachine",
@@ -145,21 +127,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_GrapefruitSoda",
-                            "ItemId": "(O){{ModId}}_GrapefruitSoda",
+                            "Id": "{{ModId}}_GrapefruitSyrup",
+                            "ItemId": "(O){{ModId}}_GrapefruitSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_LemonSoda": {
-                    "Id": "{{ModId}}_LemonSoda",
+                "{{ModId}}_LemonSyrup":{
+                    "Id": "{{ModId}}_LemonSyrup",
                     "Triggers": [
                         {
                             "Id": "LemonInMachine",
@@ -169,21 +149,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_LemonSoda",
-                            "ItemId": "(O){{ModId}}_LemonSoda",
+                            "Id": "{{ModId}}_LemonSyrup",
+                            "ItemId": "(O){{ModId}}_LemonSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_LimeSoda": {
-                    "Id": "{{ModId}}_LimeSoda",
+                "{{ModId}}_LimeSyrup":{
+                    "Id": "{{ModId}}_LimeSyrup",
                     "Triggers": [
                         {
                             "Id": "LimeInMachine",
@@ -193,21 +171,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_LimeSoda",
-                            "ItemId": "(O){{ModId}}_LimeSoda",
+                            "Id": "{{ModId}}_LimeSyrup",
+                            "ItemId": "(O){{ModId}}_LimeSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_LycheeSoda": {
-                    "Id": "{{ModId}}_LycheeSoda",
+                "{{ModId}}_LycheeSyrup":{
+                    "Id": "{{ModId}}_LycheeSyrup",
                     "Triggers": [
                         {
                             "Id": "LycheeInMachine",
@@ -217,21 +193,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_LycheeSoda",
-                            "ItemId": "(O){{ModId}}_LycheeSoda",
+                            "Id": "{{ModId}}_LycheeSyrup",
+                            "ItemId": "(O){{ModId}}_LycheeSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_PapayaSoda": {
-                    "Id": "{{ModId}}_PapayaSoda",
+                "{{ModId}}_PapayaSyrup":{
+                    "Id": "{{ModId}}_PapayaSyrup",
                     "Triggers": [
                         {
                             "Id": "PapayaInMachine",
@@ -241,21 +215,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_PapayaSoda",
-                            "ItemId": "(O){{ModId}}_PapayaSoda",
+                            "Id": "{{ModId}}_PapayaSyrup",
+                            "ItemId": "(O){{ModId}}_PapayaSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_PersimmonSoda": {
-                    "Id": "{{ModId}}_PersimmonSoda",
+                "{{ModId}}_PersimmonSyrup":{
+                    "Id": "{{ModId}}_PersimmonSyrup",
                     "Triggers": [
                         {
                             "Id": "PersimmonInMachine",
@@ -265,21 +237,19 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_PersimmonSoda",
-                            "ItemId": "(O){{ModId}}_PersimmonSoda",
+                            "Id": "{{ModId}}_PersimmonSyrup",
+                            "ItemId": "(O){{ModId}}_PersimmonSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_PomeloSoda": {
-                    "Id": "{{ModId}}_PomeloSoda",
+                "{{ModId}}_PomeloSyrup":{
+                    "Id": "{{ModId}}_PomeloSyrup",
                     "Triggers": [
                         {
                             "Id": "PomeloInMachine",
@@ -289,21 +259,18 @@
                     ],
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_PomeloSoda",
-                            "ItemId": "(O){{ModId}}_PomeloSoda",
+                            "Id": "{{ModId}}_PomeloSyrup",
+                            "ItemId": "(O){{ModId}}_PomeloSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 }
             }
         }
-
     ]
-} 
+}

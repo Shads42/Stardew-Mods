@@ -1,1 +1,104 @@
-// gift tastes for vanilla-produce items
+{
+    "Changes": [
+        {
+            "LogName": "Add universal tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation":"Append",
+                    "Target": ["Entries", "Universal_Like"],
+                    "Value": "{{ModId}}_KolaNut"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": "disliked_sodamaker_product"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Hate"],
+                    "Value": "hated_cream_sodamaker_product"
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jas' gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 1],
+                    "Value": "sodamaker_product cream_sodamaker_product",
+                    "Delimiter": " "
+                    
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 3],
+                    "Value": "{{ModId}}_FigSoda {{ModId}}_PepperSoda {{ModId}}_RhubarbSoda {{ModId}}_PepperCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Vincent's gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 1],
+                    "Value": "sodamaker_product cream_sodamaker_product",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 3],
+                    "Value": "{{ModId}}_FigSoda {{ModId}}_PepperSoda {{ModId}}_RhubarbSoda {{ModId}}_PepperCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Krobus' gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 5],
+                    "Value": "sodamaker_product cream_sodamaker_product colamaker_product syrupmaker_product",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Willy's gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 5],
+                    "Value": "sodamaker_product cream_sodamaker_product colamaker_product syrupmaker_product",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Shane's gift tastes",
+            "Action": "EditData",
+            "Target":"Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 1],
+                    "Value": "{{ModId}}_PepperSoda",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

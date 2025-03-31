@@ -1,0 +1,221 @@
+// add sve pear, persimmon as options for machines
+{
+    "Changes": [
+        {
+            "LogName": "Add SVE to syrupmaker",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_SyrupMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_SVE_PearSyrup": {
+                    "Id": "{{ModId}}_PearSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "SVEPearInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{SVEId}}_Pear"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PearSyrup",
+                            "ItemId": "(O){{ModId}}_PearSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                },
+                "{{ModId}}_SVE_PersimmonSyrup": {
+                    "Id": "{{ModId}}_PersimmonSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "SVEPersimmonInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{SVEId}}_Persimmon"
+                        },
+                        {
+                            "Id": "CornucopiaPersimmonInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Persimmon"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PersimmonSyrup",
+                            "ItemId": "(O){{ModId}}_PersimmonSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1000
+                }
+            }
+        },
+        {
+            "LogName": "Add SVE to sodamaker",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ArtisanalSodaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_SVE_PearSoda" :{
+                    "Id": "{{ModId}}_",
+                    "Triggers": [
+                        {
+                            "Id": "SVEPearInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{SVEId}}_Pear"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PearSoda",
+                            "ItemId": "(O){{ModId}}_PearSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_SVE_PersimmonSoda" :{
+                    "Id": "{{ModId}}_PersimmonSoda",
+                    "Triggers": [
+                        {
+                            "Id": "SVEPersimmonInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{SVEId}}_Persimmon"
+                        },
+                        {
+                            "Id": "CornucopiaPersimmonInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Persimmon"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PersimmonSoda",
+                            "ItemId": "(O){{ModId}}_PersimmonSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                }
+            }
+        },
+        {
+            "LogName": "Add SVE to cream soda maker",
+            "Action":"EditData",
+            "Target":"Data/Machines",
+            "TargetField": ["(BC){{ModId}}_CreamSodaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_SVE_PearCreamSoda": {
+                    "Id": "{{ModId}}_PearCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "SVEPearInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{SVEId}}_Pear"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PearCreamSoda",
+                            "ItemId": "(O){{ModId}}_PearCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_SVE_PersimmonCreamSoda": {
+                    "Id": "{{ModId}}_PersimmonCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "SVEPersimmonInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{SVEId}}_Persimmon"
+                        },
+                        {
+                            "Id": "CornucopiaPersimmonInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Persimmon"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PersimmonCreamSoda",
+                            "ItemId": "(O){{ModId}}_PersimmonCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                }
+            }
+        },
+        {
+            "LogName": "Add SVE to cream soda maker",
+            "Action":"EditData",
+            "Target":"Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ColaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_SVE_PersimmonCola": {
+                    "Id": "{{ModId}}_PersimmonCola",
+                    "Triggers": [
+                        {
+                            "Id": "PersimmonSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_PersimmonSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PersimmonCola",
+                            "ItemId": "(O){{ModId}}_PersimmonCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400 
+                }
+            }
+        }
+    ]
+}

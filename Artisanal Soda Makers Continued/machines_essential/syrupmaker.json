@@ -3,10 +3,10 @@
         {
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": ["(BC){{ModId}}_ArtisanalSodaMaker", "OutputRules"],
+            "TargetField": ["(BC){{ModId}}_SyrupMaker", "OutputRules"],
             "Entries": {
-                "{{ModId}}_AvocadoSoda": {
-                    "Id": "{{ModId}}_AvocadoSoda",
+                "{{ModId}}_AvocadoSyrup":{
+                    "Id": "{{ModId}}_AvocadoSyrup",
                     "Triggers": [
                         {
                             "Id": "AvocadoPlacedInMachine",
@@ -14,23 +14,22 @@
                             "RequiredItemId": "(O)Cornucopia_Avocado"
                         }
                     ],
+                    
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_AvocadoSoda",
-                            "ItemId": "(O){{ModId}}_AvocadoSoda",
+                            "Id": "{{ModId}}_AvocadoSyrup",
+                            "ItemId": "(O){{ModId}}_AvocadoSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_PearSoda": {
-                    "Id": "{{ModId}}_PearSoda",
+                "{{ModId}}_PearSyrup":{
+                    "Id": "{{ModId}}_PearSyrup",
                     "Triggers": [
                         {
                             "Id": "PearPlacedInMachine",
@@ -38,23 +37,22 @@
                             "RequiredItemId": "(O)Cornucopia_Pear"
                         }
                     ],
+                    
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_PearSoda",
-                            "ItemId": "(O){{ModId}}_PearSoda",
+                            "Id": "{{ModId}}_PearSyrup",
+                            "ItemId": "(O){{ModId}}_PearSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_CottonSoda": {
-                    "Id": "{{ModId}}_CottonSoda",
+                "{{ModId}}_CottonSyrup":{
+                    "Id": "{{ModId}}_CottonSyrup",
                     "Triggers": [
                         {
                             "Id": "CottonBollPlacedInMachine",
@@ -62,23 +60,22 @@
                             "RequiredItemId": "(O)Cornucopia_CottonBoll"
                         }
                     ],
+                    
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_CottonSoda",
-                            "ItemId": "(O){{ModId}}_CottonSoda",
+                            "Id": "{{ModId}}_CottonSyrup",
+                            "ItemId": "(O){{ModId}}_CottonSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_KiwiSoda": {
-                    "Id": "{{ModId}}_KiwiSoda",
+                "{{ModId}}_KiwiSyrup":{
+                    "Id": "{{ModId}}_KiwiSyrup",
                     "Triggers": [
                         {
                             "Id": "KiwiPlacedInMachine",
@@ -86,23 +83,22 @@
                             "RequiredItemId": "(O)Cornucopia_Kiwi"
                         }
                     ],
+                    
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_KiwiSoda",
-                            "ItemId": "(O){{ModId}}_KiwiSoda",
+                            "Id": "{{ModId}}_KiwiSyrup",
+                            "ItemId": "(O){{ModId}}_KiwiSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_RaspberrySoda": {
-                    "Id": "{{ModId}}_RaspberrySoda",
+                "{{ModId}}_RaspberrySyrup":{
+                    "Id": "{{ModId}}_RaspberrySyrup",
                     "Triggers": [
                         {
                             "Id": "RaspberryPlacedInMachine",
@@ -110,23 +106,22 @@
                             "RequiredItemId": "(O)Cornucopia_Raspberry"
                         }
                     ],
+                    
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_RaspberrySoda",
-                            "ItemId": "(O){{ModId}}_RaspberrySoda",
+                            "Id": "{{ModId}}_RaspberrySyrup",
+                            "ItemId": "(O){{ModId}}_RaspberrySyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 },
-                "{{ModId}}_WatermelonSoda": {
-                    "Id": "{{ModId}}_WatermelonSoda", 
+                "{{ModId}}_WatermelonSyrup":{
+                    "Id": "{{ModId}}_WatermelonSyrup",
                     "Triggers": [
                         {
                             "Id": "WatermelonPlacedInMachine",
@@ -134,20 +129,19 @@
                             "RequiredItemId": "(O)Cornucopia_Watermelon"
                         }
                     ],
+                    
                     "OutputItem": [
                         {
-                            "Id": "{{ModId}}_WatermelonSoda",
-                            "ItemId": "(O){{ModId}}_WatermelonSoda",
+                            "Id": "{{ModId}}_WatermelonSyrup",
+                            "ItemId": "(O){{ModId}}_WatermelonSyrup",
                             "CustomData": {
                                 "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
                                 "selph.ExtraMachineConfig.RequirementCount.1": 1,
-                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
-                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
-                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
                             }     
                         }
                     ],
-                    "MinutesUntilReady": 1500
+                    "MinutesUntilReady": 1000
                 }
             }
         }

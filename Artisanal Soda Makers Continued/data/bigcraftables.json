@@ -1,6 +1,12 @@
 {
     "Changes": [
         {
+            "LogName": "Load Machine Textures",
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/machines",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
             "LogName": "Add machines to Big Craftables",
             "Action": "EditData",
             "Target": "Data/BigCraftables",

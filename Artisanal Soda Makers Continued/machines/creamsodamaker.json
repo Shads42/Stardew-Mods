@@ -1,0 +1,709 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Cream Soda Maker",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC){{ModId}}_CreamSodaMaker": {
+                    "OutputRules": [
+                        {
+                            "Id": "{{ModId}}_AncientCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "AncientFruitInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)454"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_AncientCreamSoda",
+                                    "ItemId": "(O){{ModId}}_AncientCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_AppleCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "AppleInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)613"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_AppleCreamSoda",
+                                    "ItemId": "(O){{ModId}}_AppleCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_ApricotCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "ApricotInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)634"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_ApricotCreamSoda",
+                                    "ItemId": "(O){{ModId}}_ApricotCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_BananaCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "BananaPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)91"
+                                }
+                            ],
+                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_BananaCreamSoda",
+                                    "ItemId": "(O){{ModId}}_BananaCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_BlackberryCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "BlackberryInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)410"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_BlackberryCreamSoda",
+                                    "ItemId": "(O){{ModId}}_BlackberryCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_BlueberryCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "BlueberryInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)258"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_BlueberryCreamSoda",
+                                    "ItemId": "(O){{ModId}}_BlueberryCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_CactusCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "CactusInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)90"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_CactusCreamSoda",
+                                    "ItemId": "(O){{ModId}}_CactusCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_CherryCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "CherryInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)638"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_CherryCreamSoda",
+                                    "ItemId": "(O){{ModId}}_CherryCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_CoconutCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "CoconutPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)88"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_CoconutCreamSoda",
+                                    "ItemId": "(O){{ModId}}_CoconutCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_CranberryCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "CranberryInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)282"
+                                }
+                            ],
+                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_CranberryCreamSoda",
+                                    "ItemId": "(O){{ModId}}_CranberryCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_CrystalCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "CrystalFruitInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)414"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_CrystalCreamSoda",
+                                    "ItemId": "(O){{ModId}}_CrystalCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        }, 
+                        {
+                            "Id": "{{ModId}}_GrapeCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "GrapeInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)398"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_GrapeCreamSoda",
+                                    "ItemId": "(O){{ModId}}_GrapeCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_PepperCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "PepperInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)260"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_PepperCreamSoda",
+                                    "ItemId": "(O){{ModId}}_PepperCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_MangoCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "MangoInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)834"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_MangoCreamSoda",
+                                    "ItemId": "(O){{ModId}}_MangoCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_MelonCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "MelonInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)254"
+                                }, 
+                                {
+                                    "Id": "PowdermelonInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "Powdermelon"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_MelonCreamSoda",
+                                    "ItemId": "(O){{ModId}}_MelonCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_OrangeCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "OrangeInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)635"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_OrangeCreamSoda",
+                                    "ItemId": "(O){{ModId}}_OrangeCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_PeachCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "PeachInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)636"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_PeachCreamSoda",
+                                    "ItemId": "(O){{ModId}}_PeachCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_PineappleCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "PineappleInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)832"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_PineappleCreamSoda",
+                                    "ItemId": "(O){{ModId}}_PineappleCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_PomegranateCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "PomegranateInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)637"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_PomegranateCreamSoda",
+                                    "ItemId": "(O){{ModId}}_PomegranateCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_RhubarbCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "RhubarbPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)252"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_RhubarbCreamSoda",
+                                    "ItemId": "(O){{ModId}}_RhubarbCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_SalmonberryCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "SalmonberryInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)296"
+                                }
+                            ],                           
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_SalmonberryCreamSoda",
+                                    "ItemId": "(O){{ModId}}_SalmonberryCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_SpicedCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "SpiceBerryInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)396"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_SpicedCreamSoda",
+                                    "ItemId": "(O){{ModId}}_SpicedCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_StarfruitCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "StarfruitInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)268"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_StarfruitCreamSoda",
+                                    "ItemId": "(O){{ModId}}_StarfruitCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_StrawberryCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "StrawberryInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)400"
+                                }
+                            ],
+                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_StrawberryCreamSoda",
+                                    "ItemId": "(O){{ModId}}_StrawberryCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_GemCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "GemBerryInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)417"
+                                }
+                            ],                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_GemCreamSoda",
+                                    "ItemId": "(O){{ModId}}_GemCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        },
+                        {
+                            "Id": "{{ModId}}_PlumCreamSoda",
+                            "Triggers": [
+                                {
+                                    "Id": "PlumInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)406"
+                                }
+                            ],
+                            
+                            "OutputItem": [
+                                {
+                                    "Id": "{{ModId}}_PlumCreamSoda",
+                                    "ItemId": "(O){{ModId}}_PlumCreamSoda",
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                        "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_VanillaExtract",
+                                        "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                        "selph.ExtraMachineConfig.RequirementId.3": "(O){{ModId}}_SparklingWater",
+                                        "selph.ExtraMachineConfig.RequirementCount.3": 1,
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                                    }     
+                                }
+                            ],
+                            "MinutesUntilReady": 1500
+                        }
+                    ],
+                    "WorkingEffects": [
+                        {
+                            "Id": "CreamSodaMakerDefaultWork",
+                            "Frames": [1, 2, 3, 4, 5, 6],
+                            "Interval": 200
+                        }
+                    ],
+                    "WorkingEffectsChance": 1,
+                    "WobbleWhileWorking": false
+                }
+            }
+        }
+    ]
+}

@@ -14,11 +14,10 @@
                     "Description": "{{i18n:KolaSapling_Desc}}",
                     "Texture": "{{ModId}}/Objects",
                     "Price": 4000,
-                    "Edibility": 21,
-                    "IsDrink": true,
                     "ContextTags": [
                         "fruittree_sapling",
-                        "shop_pierre"
+                        "shop_pierre",
+                        "not_giftable"
                     ]
                 },
                 
@@ -72,7 +71,8 @@
                         "drink_item",
                         "extract_item",
                         "alembic_product",
-                        "buy_from_gus"
+                        "buy_from_pierre",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_SparklingWater": {
@@ -1020,8 +1020,8 @@
                     "Type": "Basic",
                     "Category": "-26", 
                     "SpriteIndex": 33,
-                    "DisplayName": "{{i18n:Fig_Name}}",
-                    "Description": "{{i18n:Syrup_Desc}}",
+                    "DisplayName": "{{i18n:FigSyrup_Name}}",
+                    "Description": "{{i18n:FigSyrup_Desc}}",
                     "Texture": "{{ModId}}/Objects",
                     "Price": 170,
                     "Edibility": 21,
@@ -2225,7 +2225,7 @@
                         "color_green",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "disliked_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -4146,7 +4146,7 @@
                         "color_green",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "hated_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -6134,7 +6134,8 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_green",
-                        "colamaker_product"
+                        "colamaker_product",
+                        "not_giftable"
                     ]
                 }
             }

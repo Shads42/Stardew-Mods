@@ -1,0 +1,286 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ColaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_BreadfruitCola": {
+                    "Id": "{{ModId}}_BreadfruitCola",
+                    "Triggers": [
+                        {
+                            "Id": "BreadfruitSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_BreadfruitSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_BreadfruitCola",
+                            "ItemId": "(O){{ModId}}_BreadfruitCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_DragonCola": {
+                    "Id": "{{ModId}}_DragonCola",
+                    "Triggers": [
+                        {
+                            "Id": "DragonSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_DragonSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_DragonCola",
+                            "ItemId": "(O){{ModId}}_DragonCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_DurianCola": {
+                    "Id": "{{ModId}}_DurianCola",
+                    "Triggers": [
+                        {
+                            "Id": "DurianSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_DurianSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_DurianCola",
+                            "ItemId": "(O){{ModId}}_DurianCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_FigCola": {
+                    "Id": "{{ModId}}_FigCola",
+                    "Triggers": [
+                        {
+                            "Id": "FigSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_FigSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FigCola",
+                            "ItemId": "(O){{ModId}}_FigCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_GrapefruitCola": {
+                    "Id": "{{ModId}}_GrapefruitCola",
+                    "Triggers": [
+                        {
+                            "Id": "GrapefruitSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_GrapefruitSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_GrapefruitCola",
+                            "ItemId": "(O){{ModId}}_GrapefruitCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_LemonCola": {
+                    "Id": "{{ModId}}_LemonCola",
+                    "Triggers": [
+                        {
+                            "Id": "LemonSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_LemonSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_LemonCola",
+                            "ItemId": "(O){{ModId}}_LemonCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_LimeCola": {
+                    "Id": "{{ModId}}_LimeCola",
+                    "Triggers": [
+                        {
+                            "Id": "LimeSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_LimeSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_LimeCola",
+                            "ItemId": "(O){{ModId}}_LimeCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_LycheeCola": {
+                    "Id": "{{ModId}}_LycheeCola",
+                    "Triggers": [
+                        {
+                            "Id": "LycheeSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_LycheeSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_LycheeCola",
+                            "ItemId": "(O){{ModId}}_LycheeCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_PapayaCola": {
+                    "Id": "{{ModId}}_PapayaCola",
+                    "Triggers": [
+                        {
+                            "Id": "PapayaSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_PapayaSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PapayaCola",
+                            "ItemId": "(O){{ModId}}_PapayaCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_PersimmonCola": {
+                    "Id": "{{ModId}}_PersimmonCola",
+                    "Triggers": [
+                        {
+                            "Id": "PersimmonSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_PersimmonSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PersimmonCola",
+                            "ItemId": "(O){{ModId}}_PersimmonCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                },
+                "{{ModId}}_PomeloCola": {
+                    "Id": "{{ModId}}_PomeloCola",
+                    "Triggers": [
+                        {
+                            "Id": "PomeloSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_PomeloSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PomeloCola",
+                            "ItemId": "(O){{ModId}}_PomeloCola",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_KolaNut",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ModId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Cola}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 2400
+                }
+            }
+        }
+    ]
+} 

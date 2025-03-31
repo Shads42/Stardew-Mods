@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add vanilla extract to Alembic",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)Cornucopia_Alembic", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_VanillaExtract": {
+                    "Id": "{{ModId}}_VanillaExtract",
+                    "Triggers": [
+                        {
+                            "Id": "VanillaPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Vanilla"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_VanillaExtract",
+                            "ItemId": "(O){{ModId}}_VanillaExtract"
+                        }
+                    ],
+                    "MinutesUntilReady": 720
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id": "{{ModId}}_VanillaExtract",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

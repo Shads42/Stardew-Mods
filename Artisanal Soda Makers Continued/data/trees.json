@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add kola nut tree to fruit trees",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "{{ModId}}_KolaSapling": {
+                    "DisplayName": "{{i18n:KolaSapling_Name}}",
+                    "Seasons": ["summer"],
+                    "Fruit": [{"ItemId": "{{ModId}}_KolaNut"}],
+                    "Texture": "{{ModId}}/trees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        }
+    ]
+}

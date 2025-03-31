@@ -4,8 +4,8 @@
     "Description": "A rewrite of Artisanal Soda Makers by hadiwrites to work with Content Patcher and Cornucopia mods",
     "Version": "1.0.0",
     "MinimumApiVersion": "4.1.6",
-    "UniqueId": "Shads42.ArtisanalSodaMakersContinued",
-    "UpdateKeys": [],
+    "UniqueId": "Shads42.SodaMakersContinued",
+    "UpdateKeys": ["Nexus: "],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },

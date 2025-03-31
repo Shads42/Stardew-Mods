@@ -47,8 +47,18 @@
     "SparklingWater_Flavored": "{0} Sparkling Water",
     "FruitSyrup_Flavored": "{0} Syrup",
 
+    // missing messages
+    "Msg_Sugar": "Requires 1 Sugar",
+    "Msg_CreamSoda": "Requires 1 Sugar, 1 Sparkling Water, and 1 Vanilla Extract",
+    "Msg_Coal": "Requires 2 Coal",
+    "msg_FlavoredWater": "Requires 1 Coal and 1 Fresh Water",
+    "Msg_Cola": "Requires 1 Kola Nut and 1 Sparkling Water",
+    "Msg_DietCola": "Requires 1 Kola Nut",
+    "Msg_VanillaCola": "Requires 1 Sugary Syrup, 1 Kola Nut, and 1 Sparkling Water",
+    "Msg_Soda": "Requires 1 Sugar and 1 Sparkling Water",
+    "Msg_WeedsHoney": "Requires 1 Honey",
+    
     // Artisanal Soda Maker - Default
-    "Soda_Missing": "Requires 1 Sparkling Water and 1 Sugar",
     "AncientSoda_Name": "Ancient Soda",
     "AncientSoda_Desc": "Exotic and very valuable. Has a sweet and mildly tangy flavor.",
     "AppleSoda_Name": "Apple Soda",
@@ -143,10 +153,8 @@
     "StrawberrySoda_Desc": "Classic fizzy goodness.",
     "WatermelonSoda_Name": "Watermelon Soda",
     "WatermelonSoda_Desc": "Bursting with flavor. You can probably make this from any kind of watermelon.",
-    "WeedsHoney_Text": "Weeds Honey",
 
     // Cola Maker - Default 
-    "Cola_Missing": "Requires 1 Sparkling Water and 1 Kola Nut ",
     "AncientCola_Name": "Ancient Cola",
     "AncientCola_Desc": "Maybe the dinosaurs would've stuck around longer if they'd known you could make such a tasty drink from ancient fruit.",
     "AppleCola_Name": "Apple Cola",
@@ -163,7 +171,7 @@
     "BlackberryCola_Desc": "The elegant bitterness of the blackberries perfectly accents the kola flavors.",
     "BlueberryCola_Name": "Blueberry Cola",
     "BlueberryCola_Desc": "Very sweet.",
-    "BraedfruitCola_Name": "Breadfruit Cola",
+    "BreadfruitCola_Name": "Breadfruit Cola",
     "BreadfruitCola_Desc": "The image of bread dipped in cola just crossed your mind.",
     "CactusCola_Name": "Cactus Cola",
     "CactusCola_Desc": "Drink Cactus Cola, it'll quench ya!",
@@ -247,9 +255,10 @@
     "VanillaCola_Desc": "Like liquefied Ice Cream Soda.",
     "WatermelonCola_Name": "Watermelon Cola",
     "WatermelonCola_Desc": "There's a hint of star anise in here!",
+    "WeedsHoney_Name": "Weeds Honey",
+    "WeedsHoney_Desc": "Weeds Honey",
 
     // Cream Soda Maker - Default 
-    "CreamSoda_Missing": "Requires 1 Sparkling Water, 1 Vanilla Extract, and 1 Sugar",
     "AncientCreamSoda_Name": "Ancient Cream Soda",
     "AncientCreamSoda_Desc": "Expensive for good reason.",
     "AppleCreamSoda_Name": "Apple Cream Soda",
@@ -345,8 +354,7 @@
     "WatermelonCreamSoda_Name": "Watermelon Cream Soda",
     "WatermelonCreamSoda_Desc": "Some star anise would probably make this perfect.",
     
-    // Syrup Maker - Default 
-    "Syrup_Missing": "Requires 1 Sugar",
+    // Syrup Maker - Default
     "Syrup_Desc": "Syrup extracted from fruit essence and sweetened with sugar. Used to make cola.",
     "AncientSyrup_Name": "Ancient Syrup",
     "AppleSyrup_Name": "Apple Syrup",

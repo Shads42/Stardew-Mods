@@ -1,10 +1,13 @@
 {
     "Format": "2.0.0",
     "DynamicTokens": [
-        // dynamic tokens for stuff
         {
-            "Name": "120Percent",
-            "Value": "1.2"
+            "Name": "WAGId",
+            "Value": "Wildflour.AtelierGoods"
+        },
+        {
+            "Name": "SVEId",
+            "Value": "FlashShifter.StardewValleyExpandedCP"
         }
     ],
     "Changes": [
@@ -17,7 +20,59 @@
         {
             "LogName": "Load default pack data",
             "Action": "Include",
-            "FromFile": "data/objects.json, data/strings.json, data/bigcraftables.json"
+            "FromFile": "data/objects.json, data/strings.json, data/bigcraftables.json, data/shops.json, data/gifttastes.json, data/trees.json"
+        },
+        {
+            "LogName": "Load default machines",
+            "Action": "Include",
+            "FromFile": "machines/pump.json, machines/syrupmaker.json, machines/carbonator.json, machines/sodamaker.json, machines/creamsodamaker.json, machines/colamaker.json"
+        },
+        {
+            "LogName": "Load Cornucopa Crops default pack data",
+            "Action": "Include",
+            "FromFile": "machines_essential/alembic.json, machines_essential/syrupmaker.json, machines_essential/sodamaker.json, machines_essential/creamsodamaker.json, machines_essential/colamaker.json"
+        },
+        {
+            "LogName": "Load Cornucopia Crops extended pack data",
+            "Action": "Include",
+            "FromFile": "machines_extended/syrupmaker.json, machines_extended/sodamaker.json, machines_extended/creamsodamaker.json, machines_extended/colamaker.json",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter | contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+            } 
+        },
+        {
+            "LogName": "Load Cornucopia Crops tree pack data",
+            "Action": "Include",
+            "FromFile": "machines_trees/syrupmaker.json, machines_trees/sodamaker.json, machines_trees/creamsodamaker.json, machines_trees/colamaker.json",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter | contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+            } 
+        },
+        // load compatability patches
+        {
+            "LogName": "Load SVE Compatability Patch",
+            "Action": "Include",
+            "FromFile": "compat_patch/sve.json",
+            "When": {
+                "HasMod | contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },   
+        {
+            "LogName": "Load Wildflour Atelier Goods Compatability Patch",
+            "Action": "Include",
+            "FromFile": "compat_patch/wildflour.json",
+            "When": {
+                "HasMod | contains=Wildflour.AtelierGoods": true
+            }
+        },
+        // load default products LAST 
+        {
+            "LogName": "Load generalized products",
+            "Action": "Include",
+            "FromFile": "machines/defaultproducts.json"
         }
+
     ]
 }
