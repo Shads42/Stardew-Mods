@@ -1,0 +1,10 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)Shads42.ArtisanalSodaMakersContinued_CreamSodaMaker", "OutputRules"],
+            "Entries": {}
+        }
+    ]
+}

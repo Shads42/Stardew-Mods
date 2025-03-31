@@ -1,0 +1,14 @@
+{
+    "Name": "Flower Pack for Artisanal Soda Makers Continued",
+    "Author": "Hadiwrites, Fwippy, and Shads42",
+    "Description": "A rewrite of Flower Pack for Artisanal Soda Makers to work with Content Patcher and the Cornucopia mod family",
+    "Version": "1.0.0",
+    "UniqueId": "Shads42.ASM_FlowerPack",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueId": "PathosChild.ContentPatcher"
+    },
+    "Dependencies": {
+        
+    }
+}

@@ -1,0 +1,100 @@
+
+"{{ModId}}_": {
+    "Name": "{{ModId}}_",
+    "Type": "Basic",
+    "Category": "-26", 
+    "SpriteIndex": ,
+    "DisplayName": "{{i18n:_Name}}",
+    "Description": "{{i18n:_Desc}}",
+    "Texture": "{{ModId}}/Objects",
+    "Price": ,
+    "Edibility": ,
+    "IsDrink": true,
+    "ContextTags": [
+        "color_",
+        "drink_item",
+        "cream_soda_item",
+        "cream_sodamaker_product"
+    ],
+    "Buffs": [
+        {
+            "BuffId": null,
+            "IconTexture": null,
+            "IconSpriteIndex": 0,
+            "Duration": 360,
+            "IsDebuff": false,
+            "GlowColor": null,
+            "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+            }
+        }
+    ]
+},
+
+"{{ModId}}_": {
+    "Name": "{{ModId}}_",
+    "Type": "Basic",
+    "Category": "-26", 
+    "SpriteIndex": ,
+    "DisplayName": "{{i18n:_Name}}",
+    "Description": "{{i18n:_Desc}}",
+    "Texture": "{{ModId}}/Objects",
+    "Price": ,
+    "Edibility": -300,
+    "IsDrink": true,
+    "ContextTags": [
+        "color_",
+        "syrup_item",
+        "syrupmaker_product"
+    ]
+},
+
+"{{ModId}}_": {
+    "Name": "{{ModId}}_",
+    "Type": "Basic",
+    "Category": "-26", 
+    "SpriteIndex": ,
+    "DisplayName": "{{i18n:_Name}}",
+    "Description": "{{i18n:_Desc}}",
+    "Texture": "{{ModId}}/Objects",
+    "Price": ,
+    "Edibility": ,
+    "IsDrink": true,
+    "ContextTags": [
+        "color_",
+        "drink_item",
+        "soda_item",
+        "sodamaker_product"
+    ],
+    "Buffs": [
+        {
+            "BuffId": null,
+            "IconTexture": null,
+            "IconSpriteIndex": 0,
+            "Duration": 360,
+            "IsDebuff": false,
+            "GlowColor": null,
+            "CustomAttributes": {
+                "FarmingLevel": 0,
+                "FishingLevel": 0,
+                "MiningLevel": 0,
+                "LuckLevel": 0,
+                "ForagingLevel": 0,
+                "MaxStamina": 0,
+                "MagneticRadius": 0,
+                "Speed": 0,
+                "Defense": 0,
+                "Attack": 0
+            }
+        }
+    ]
+},
