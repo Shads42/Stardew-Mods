@@ -1,0 +1,61 @@
+{
+    "Format": "2.0.0",
+    "DynamicTokens": [
+        {
+            "Name": "SVEId",
+            "Value": "FlashShifter.StardewValleyExpandedCP"
+        },
+        {
+            "Name": "WAGId",
+            "Value": "Wildflour.AtelierGoods"
+        },
+        {
+            "Name": "ASMId",
+            "Value": "Shads42.ASMContinued"
+        }
+    ],
+    "Changes": [
+        {
+            "LogName": "Load spritesheet",
+            "Action": "Load",
+            "Target": "{{ModId}}/objects",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load default data",
+            "Action": "Include",
+            "FromFile": ""
+        },
+        {
+            "LogName": "Load Cornucipia Flowers default data",
+            "Action": "Include",
+            "FromFile": ""
+        },
+        {
+            "LogName": "Load Cornucopia Flowers extended data",
+            "Action": "Include",
+            "FromFile": ""
+        },
+        {
+            "LogName": "Load Wildflour compatability patch",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "HasMod | contains=Wildflour.AtelierGoods": true
+            }
+        },
+        {
+            "LogName": "Load Clover items",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "HasMod | contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "LogName": "Load default products",
+            "Action": "Include",
+            "FromFile": ""
+        }
+    ]
+}

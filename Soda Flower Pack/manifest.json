@@ -8,7 +8,21 @@
     "ContentPackFor": {
         "UniqueId": "PathosChild.ContentPatcher"
     },
-    "Dependencies": {
-        
-    }
+    "Dependencies": [
+        {
+            "UniqueID": "selph.ExtraMachineConfig",
+            "MinimumVersion": "1.11.0",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "MinimumVersion": "1.14.0",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Cornucopia.MoreFlowers",
+            "MinimumVersion": "1.5.5",
+            "IsRequired": true
+        }
+    ]
 }
