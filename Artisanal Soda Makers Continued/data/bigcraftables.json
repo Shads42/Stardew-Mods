@@ -15,7 +15,7 @@
                     "Name": "{{ModId}}_Pump",
                     "DisplayName": "{{i18n:Pump_Name}}",
                     "Description": "{{i18n:Pump_Desc}}",
-                    "Texture": "Mods\\Shads42.ArtisanalSodaMakersContinued\\machines",
+                    "Texture": "Mods\\{{ModId}}\\machines",
                     "SpriteIndex": 32,
                     "IsLamp": false
                 },

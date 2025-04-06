@@ -1,11 +1,11 @@
 {
-    "Name": "Artisanal Soda Makers Continued",
-    "Author": "Hadiwrites, Fwippy, and Shads42",
-    "Description": "A rewrite of Artisanal Soda Makers by hadiwrites to work with Content Patcher and Cornucopia mods",
-    "Version": "1.0.0",
+    "Name": "Artisanal Soda Makers",
+    "Author": "Hadi and Shads42",
+    "Description": "Soda maker producers and rules for making soda from fruit crops.",
+    "Version": "3.0.0",
     "MinimumApiVersion": "4.1.6",
-    "UniqueId": "Shads42.SodaMakersContinued",
-    "UpdateKeys": ["Nexus: "],
+    "UniqueId": "Hadi.JASoda",
+    "UpdateKeys": ["Nexus:5173"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },
@@ -16,19 +16,24 @@
             "IsRequired": true
         },
         {
-            "UniqueID": "spacechase0.GenericModConfigMenu",
-            "MinimumVersion": "1.14.0",
-            "IsRequired": true
-        },
-        {
             "UniqueID": "Cornucopia.MoreCrops",
             "MinimumVersion": "1.5.5",
-            "IsRequired": true
+            "IsRequired": false
         },
         {
             "UniqueID": "Cornucopia.ArtisanMachines",
             "MinimumVersion": "1.0.7",
-            "IsRequired": true
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Wildflour.AtelierGoods",
+            "MinimumVersion": "1.0.0",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "MinimumVersion": "1.15.10",
+            "IsRequired": false
         }
      ]
 }
