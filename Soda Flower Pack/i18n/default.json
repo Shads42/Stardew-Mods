@@ -3,12 +3,24 @@
     "FlowerSyrup_Name": "Flower Syrup",
     "FlowerSyrup_Desc": "A fragrant jug of syrup made from flowers.",
     "FlowerSparklingWater_Name": "Flower Flavored Sparkling Water",  
-    "FlowerSparkingWater_Desc": "Effervescent bubbles combine with a delicate floral aroma for this refreshing beverage.",
+    "FlowerSparklingWater_Desc": "Effervescent bubbles combine with a delicate floral aroma for this refreshing beverage.",
     "FlowerSoda_Name": "Flower Flavored Soda",
     "FlowerSoda_Desc": "A delicious floral soda.",
     "FlowerCreamSoda_Name": "Flower Cream Soda",
     "FlowerCreamSoda_Desc": "A sweet floral soda with creamy vanilla.",
 
+    // placeholder item names
+    "FlowerSyrup_Flavored": "{0} Syrup",
+    "FlowerSoda_Flavored": "{0} Soda",
+    "FlowerCreamSoda_Flavored": "{0} Cream Soda",
+    "FlowerWater_Flavored": "{0} Sparkling Water",
+
+    // missing messages
+    "Msg_Water": "Requires 3 Coal and 1 Fresh Water",
+    "Msg_Soda": "Requires 1 Sparkling Water",
+    "Msg_CreamSoda": "Requires 1 Sparkling Water and 1 Vanilla Extract",
+    "Msg_Sugar": "Requires 1 Sugar",
+    
     // Syrup Maker
     "AliumSyrup_Name": "Alium Syrup",
     "AliumSyrup_Desc": "A fragrant jug of syrup made from Allium flowers",
@@ -192,8 +204,8 @@
     "ChrysanthemumCreamSoda_Desc": "There's a subtle tang to this sweet beverage.",
     "ClarySageCreamSoda_Name": "Clary Sage Cream Soda",
     "ClarySageCreamSoda_Desc": "You feel refreshed and calmed by its mild flavor.",
-    "ClemantisCreamSoda_Name": "Clemantis Cream Soda",
-    "ClemantisCreamSoda_Desc": "The clematis cuts the sweetness so it's not too overpowering.",
+    "ClematisCreamSoda_Name": "Clemantis Cream Soda",
+    "ClematisCreamSoda_Desc": "The clematis cuts the sweetness so it's not too overpowering.",
     "CloverCreamSoda_Name": "Clover Cream Soda",
     "CloverCreamSoda_Desc": "This one is sure to make almost anyone's day.",
     "CrocusCreamSoda_Name": "Crocus Cream Soda",

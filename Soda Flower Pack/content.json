@@ -11,7 +11,7 @@
         },
         {
             "Name": "ASMId",
-            "Value": "Shads42.ASMContinued"
+            "Value": "Hadi.JASoda"
         }
     ],
     "Changes": [
@@ -24,30 +24,29 @@
         {
             "LogName": "Load default data",
             "Action": "Include",
-            "FromFile": ""
+            "FromFile": "data/objects.json, data/strings.json, machines/carbonator.json, machines/sodamaker.json, machines/syrupmaker.json, machines/creamsodamaker.json, data/gifttastes.json"
         },
         {
             "LogName": "Load Cornucipia Flowers default data",
             "Action": "Include",
-            "FromFile": ""
+            "FromFile": "machines_essential/syrupmaker.json, machines_essential/sodamaker.json, machines_essential/creamsodamaker.json, data/gifts_cornucopia.json",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreFlowers": true
+            }
         },
         {
             "LogName": "Load Cornucopia Flowers extended data",
             "Action": "Include",
-            "FromFile": ""
-        },
-        {
-            "LogName": "Load Wildflour compatability patch",
-            "Action": "Include",
-            "FromFile": "",
+            "FromFile": "machines_extended/syrupmaker.json, machines_extended/sodamaker.json, machines_extended/creamsodamaker.json, data/gifts_cornucopia_extended.json",
             "When": {
-                "HasMod | contains=Wildflour.AtelierGoods": true
+                "HasMod | contains=Cornucopia.MoreFlowers": true,
+                "HasReadLetter | contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
             }
         },
         {
             "LogName": "Load Clover items",
             "Action": "Include",
-            "FromFile": "",
+            "FromFile": "machines/sve_machines.json, data/gifts_sve.json",
             "When": {
                 "HasMod | contains=FlashShifter.StardewValleyExpandedCP": true
             }
@@ -55,7 +54,7 @@
         {
             "LogName": "Load default products",
             "Action": "Include",
-            "FromFile": ""
-        }
+            "FromFile": "machines/defaultproducts.json"
+        } 
     ]
 }

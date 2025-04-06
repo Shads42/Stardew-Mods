@@ -1,0 +1,519 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Abigail Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 1],
+                    "Value": "{{ModId}}_FallRoseSoda {{ModId}}_VioletSoda {{ModId}}_FallRoseCreamSoda {{ModId}}_VioletCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_GeraniumSoda {{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Alex Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_GeraniumSoda {{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Caroline Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Caroline", 1],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_JasmineSoda {{ModId}}_SpringRoseSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_JasmineCreamSoda {{ModId}}_SpringRoseCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Clint Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 3],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_ChamomileSoda {{ModId}}_ClarySageSoda {{ModId}}_HoneysuckleSoda {{ModId}}_LilacSoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_BeeBalmCreamSoda {{ModId}}_ChamomileCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_HoneysuckleCreamSoda {{ModId}}_LilacCreamSoda {{ModId}}_PurpleConeflowerCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 9],
+                    "Value": "{{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Dwarf Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 7],
+                    "Value": "{{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_GeraniumSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_GeraniumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Elliott Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", 1],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_JasmineSoda {{ModId}}_LavenderSoda {{ModId}}_SummerRoseSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_JasmineCreamSoda {{ModId}}_LavenderCreamSoda {{ModId}}_SummerRoseCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Emily Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 3],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClarySageSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_FallRoseSoda {{ModId}}_GeraniumSoda {{ModId}}_HoneysuckleSoda {{ModId}}_JasmineSoda {{ModId}}_MagnoliaSoda {{ModId}}_PeonySoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_SpringRoseSoda {{ModId}}_VioletSoda {{ModId}}_BeeBalmCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_FallRoseCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HoneysuckleCreamSoda {{ModId}}_JasmineCreamSoda {{ModId}}_MagnoliaCreamSoda {{ModId}}_PeonyCreamSoda {{ModId}}_PurpleConeflowerCreamSoda {{ModId}}_SpringRoseCreamSoda {{ModId}}_VioletCreamSoda",
+                    "Delimiter": " "
+                }                
+            ]
+        },
+        {
+            "LogName": "Add Evelyn Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 3],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClarySageSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_FallRoseSoda {{ModId}}_HibiscusSoda {{ModId}}_HoneysuckleSoda {{ModId}}_LavenderSoda {{ModId}}_LilacSoda {{ModId}}_PurpleConeflowerSoda _BeeBalmCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_FallRoseCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_HoneysuckleCreamSoda {{ModId}}_LavenderCreamSoda {{ModId}}_LilacCreamSoda {{ModId}}_PurpleConeflowerCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add George Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 3],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_ChamomileSoda {{ModId}}_ClarySageSoda {{ModId}}_HoneysuckleSoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_BeeBalmCreamSoda {{ModId}}_ChamomileCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_HoneysuckleCreamSoda {{ModId}}_PurpleConeflowerCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 9],
+                    "Value": "{{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Gus Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 1],
+                    "Value": "{{ModId}}_GeraniumSoda {{ModId}}_GeraniumCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahilaCreamSoda {{ModId}}_DaisyCreamSOda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Haley Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 3],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_ChamomileSoda {{ModId}}_ClarySageSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_FallRoseSoda {{ModId}}_GeraniumSoda {{ModId}}_HibiscusSoda {{ModId}}_HoneysuckleSoda {{ModId}}_JasmineSoda {{ModId}}_LilacSoda {{ModId}}_PeonySoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_SummerRoseSoda {{ModId}}_VioletSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_ChamomileCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_FallRoseCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_HoneysuckleCreamSoda {{ModId}}_JasmineCreamSoda {{ModId}}_LilacCreamSoda {{ModId}}_PeonyCreamSoda {{ModId}}_PurpleConeflowerCreamSoda {{ModId}}_SummerRoseCreamSoda {{ModId}}_VioletCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Harvey Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 1],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_ChamomileSoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_BeeBalmCreamSoda {{ModId}}_ChamomileCreamSoda {{ModId}}_PurpleConeflowerCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_BlueRoseCreamSoda ",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jas Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 1],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_DaisySoda {{ModId}}_FallRoseSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_FallRoseCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 7],
+                    "Value": "{{ModId}}_ClarySageSoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_PurpleConeflowerCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jodi Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jodi", 3],
+                    "Value": "{{ModId}}_DaisySoda {{ModId}}_GeraniumSoda {{ModId}}_DaisyCreamSoda {{ModId}}_GeraniumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Kent Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Kent", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_GeraniumSoda {{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Kent", 7],
+                    "Value": "{{ModId}}_HoneysuckleSoda {{ModId}}_HoneysuckleCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Krobus Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 1],
+                    "Value": "{{ModId}}_VioletSoda {{ModId}}_VioletCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_GeraniumSoda {{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCream",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leah Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 3],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_DaisySoda {{ModId}}_GeraniumSoda {{ModId}}_HoneysuckleSoda {{ModId}}_BeeBalmCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HoneysuckleCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leo Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 1],
+                    "Value": "{{ModId}}_HibiscusSoda {{ModId}}_HibiscusCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 9],
+                    "Value": "{{ModId}}_ClarySageSoda {{ModId}}_ClarySageCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Lewis Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lewis", 1],
+                    "Value": "{{ModId}}_GeraniumSoda {{ModId}}_GeraniumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },{
+            "LogName": "Add Marnie Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Marnie", 1],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_CarnationSoda {{ModId}}_HibiscusSoda {{ModId}}_HoneysuckleSoda {{ModId}}_BeeBalmCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_HoneysuckleCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },{
+            "LogName": "Add Maru Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 1],
+                    "Value": "{{ModId}}_ClematisSoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_ClematisCreamSoda {{ModId}}_PurpleConeflowerCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 9],
+                    "Value": "{{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pam Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 1],
+                    "Value": "{{ModId}}_PeonySoda {{ModId}}_PeonyCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 9],
+                    "Value": "{{MOdId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },{
+            "LogName": "Add Penny Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 1],
+                    "Value": "{{ModId}}_DaisySoda {{ModId}}_SummerRoseSoda {{ModId}}_DaisyCreamSoda {{ModId}}_SummerRoseCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pierre Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 9],
+                    "Value": "{{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 1],
+                    "Value": "{{ModId}}_LavenderSoda {{ModId}}_LavenderCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Robin Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Robin", 1],
+                    "Value": "{{ModId}}_FallRoseSoda {{ModId}}_LilacSoda {{ModId}}_FallRoseCreamSoda {{ModId}}_LilacCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sam Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 9],
+                    "Value": "{{ModId}}_GeraniumSoda {{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sandy Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 3],
+                    "Value": "{{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ChamomileSoda {{ModId}}_ClarySageSoda {{ModId}}_ClematisSoda {{ModId}}_DaisySoda {{ModId}}_FallRoseSoda {{ModId}}_GeraniumSoda {{ModId}}_LavenderSoda {{ModId}}_LilacSoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_SpringRoseSoda {{ModId}}_SummerRoseSoda {{ModId}}_FallRoseSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ChamomileCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_FallRoseCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_LavenderCreamSoda {{ModId}}_LilacCreamSoda {{ModId}}_PurpleConeflowerCreamSoda {{ModId}}_SpringRoseCreamSoda {{ModId}}_SummerRoseCreamSoda {{ModId}}_FallRoseCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 9],
+                    "Value": "{{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sebastian Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 3],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_ChamomileSoda {{ModId}}_ClarySageSoda {{ModId}}_FallRoseSoda {{ModId}}_HoneysuckleSoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_BeeBalmCreamSoda {{ModId}}_ChamomileCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_FallRoseCreamSoda {{ModId}}_HoneysuckleCreamSoda {{ModId}}_PurpleConeflowerCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 9],
+                    "Value": "{{ModId}}_HibiscusSoda {{ModId}}_HibiscusCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Shane Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Vincent Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 7],
+                    "Value": "{{ModId}}_BeeBalmSoda {{ModId}}_ChamomileSoda {{ModId}}_ClarySageSoda {{ModId}}_PurpleConeflowerSoda {{ModId}}_BeeBalmCreamSoda {{ModId}}_ChamomileCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_PurpleConeflowerCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_GeraniumSoda {{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_LavenderSoda {{ModId}}_LilacSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda {{ModId}}_LavenderCreamSoda {{ModId}}_LilacCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Willy Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 9],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClarySageSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_GeraniumSoda {{ModId}}_HibiscusSoda {{ModId}}_JasmineSoda {{ModId}}_LavenderSoda {{ModId}}_LilacSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClarySageCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda {{ModId}}_GeraniumCreamSoda {{ModId}}_HibiscusCreamSoda {{ModId}}_JasmineCreamSoda {{ModId}}_LavenderCreamSoda {{ModId}}_LilacCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Wizard Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 1],
+                    "Value": "{{ModId}}_BlueRoseSoda {{ModId}}_ClarySageSoda {{ModId}}_BlueRoseCreamSoda {{ModId}}_ClarySageCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 9],
+                    "Value": "{{ModId}}_CamelliaSoda {{ModId}}_CarnationSoda {{ModId}}_ClematisSoda {{ModId}}_DahliaSoda {{ModId}}_DaisySoda {{ModId}}_CamelliaCreamSoda {{ModId}}_CarnationCreamSoda {{ModId}}_ClematisCreamSoda {{ModId}}_DahliaCreamSoda {{ModId}}_DaisyCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

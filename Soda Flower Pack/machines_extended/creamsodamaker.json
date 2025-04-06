@@ -3,8 +3,536 @@
         {
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": ["(BC)Shads42.ArtisanalSodaMakersContinued_CreamSodaMaker", "OutputRules"],
-            "Entries": {}
+            "TargetField": ["(BC){{ASMId}}_CreamSodaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_BeeBalmCreamSoda": {
+                    "Id": "{{ModId}}_BeeBalmCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "BeeBalmSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_BeeBalmSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_BeeBalmCreamSoda",
+                            "ItemId": "(O){{ModId}}_BeeBalmCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_BlueRoseCreamSoda": {
+                    "Id": "{{ModId}}_BlueRoseCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "BlueRoseSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_BlueRoseSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_BlueRoseCreamSoda",
+                            "ItemId": "(O){{ModId}}_BlueRoseCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_CamelliaCreamSoda": {
+                    "Id": "{{ModId}}_CamelliaCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "CamelliaSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_CamelliaSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CamelliaCreamSoda",
+                            "ItemId": "(O){{ModId}}_CamelliaCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_CarnationCreamSoda": {
+                    "Id": "{{ModId}}_CarnationCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "CarnationSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_CarnationSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CarnationCreamSoda",
+                            "ItemId": "(O){{ModId}}_CarnationCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_ClarySageCreamSoda": {
+                    "Id": "{{ModId}}_ClarySageCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "ClarySageSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_ClarySageSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_ClarySageCreamSoda",
+                            "ItemId": "(O){{ModId}}_ClarySageCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_ChamomileCreamSoda": {
+                    "Id": "{{ModId}}_ChamomileCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "ChamomileSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_ChamomileSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_ChamomileCreamSoda",
+                            "ItemId": "(O){{ModId}}_ChamomileCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,                                
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_ClematisCreamSoda": {
+                    "Id": "{{ModId}}_ClematisCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "ClematisSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_ClematisSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_ClematisCreamSoda",
+                            "ItemId": "(O){{ModId}}_ClematisCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_DahliaCreamSoda": {
+                    "Id": "{{ModId}}_DahliaCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "DahliaSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_DahliaSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_DahliaCreamSoda",
+                            "ItemId": "(O){{ModId}}_DahliaCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_DaisyCreamSoda": {
+                    "Id": "{{ModId}}_DaisyCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "DaisySyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_DaisySyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_DaisyCreamSoda",
+                            "ItemId": "(O){{ModId}}_DaisyCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_FallRoseCreamSoda": {
+                    "Id": "{{ModId}}_FallRoseCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "FallRoseSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_FallRoseSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FallRoseCreamSoda",
+                            "ItemId": "(O){{ModId}}_FallRoseCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_GeraniumCreamSoda": {
+                    "Id": "{{ModId}}_GeraniumCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "GeraniumSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_GeraniumSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_GeraniumCreamSoda",
+                            "ItemId": "(O){{ModId}}_GeraniumCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_HibiscusCreamSoda": {
+                    "Id": "{{ModId}}_HibiscusCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "HibiscusSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_HibiscusSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_HibiscusCreamSoda",
+                            "ItemId": "(O){{ModId}}_HibiscusCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_HoneysuckleCreamSoda": {
+                    "Id": "{{ModId}}_HoneysuckleCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "HoneysuckleSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_HoneysuckleSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_HoneysuckleCreamSoda",
+                            "ItemId": "(O){{ModId}}_HoneysuckleCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_JasmineCreamSoda": {
+                    "Id": "{{ModId}}_JasmineCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "JasmineSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_JasmineSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_JasmineCreamSoda",
+                            "ItemId": "(O){{ModId}}_JasmineCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_LavenderCreamSoda": {
+                    "Id": "{{ModId}}_LavenderCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "LavenderSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_LavenderSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_LavenderCreamSoda",
+                            "ItemId": "(O){{ModId}}_LavenderCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_LilacCreamSoda": {
+                    "Id": "{{ModId}}_LilacCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "LilacSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_LilacSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_LilacCreamSoda",
+                            "ItemId": "(O){{ModId}}_LilacCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+
+                "{{ModId}}_MagnoliaCreamSoda": {
+                    "Id": "{{ModId}}_MagnoliaCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "MagnoliaSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_MagnoliaSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_MagnoliaCreamSoda",
+                            "ItemId": "(O){{ModId}}_MagnoliaCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_PurpleConeflowerCreamSoda": {
+                    "Id": "{{ModId}}_PurpleConeflowerCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "PurpleConeflowerSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_PurpleConeflowerSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PurpleConeflowerCreamSoda",
+                            "ItemId": "(O){{ModId}}_PurpleConeflowerCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_PeonyCreamSoda": {
+                    "Id": "{{ModId}}_PeonyCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "PeonySyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_PeonySyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PeonyCreamSoda",
+                            "ItemId": "(O){{ModId}}_PeonyCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_SpringRoseCreamSoda": {
+                    "Id": "{{ModId}}_SpringRoseCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "SpringRoseSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_SpringRoseSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_SpringRoseCreamSoda",
+                            "ItemId": "(O){{ModId}}_SpringRoseCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_SummerRoseCreamSoda": {
+                    "Id": "{{ModId}}_SummerRoseCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "SummerRoseSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_SummerRoseSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_SummerRoseCreamSoda",
+                            "ItemId": "(O){{ModId}}_SummerRoseCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                },
+                "{{ModId}}_VioletCreamSoda": {
+                    "Id": "{{ModId}}_VioletCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "VioletSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_VioletSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_VioletCreamSoda",
+                            "ItemId": "(O){{ModId}}_VioletCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                }                                                                                                                                                                                                                                                                                                                                                                
+            }
         }
     ]
 }

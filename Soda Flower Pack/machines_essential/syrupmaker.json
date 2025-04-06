@@ -3,8 +3,97 @@
         {
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": ["(BC)Shads42.ArtisanalSodaMakersContinued_SyrupMaker", "OutputRules"],
-            "Entries": {}
+            "TargetField": ["(BC){{ASMId}}_SyrupMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_ChrysanthemumSyrup": {
+                    "Id": "{{ModId}}_ChrysanthemumSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "ChrysanthemumPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Chrysanthemum"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_ChrysanthemumSyrup",
+                            "ItemId": "(O){{ModId}}_ChrysanthemumSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_LotusSyrup": {
+                    "Id": "{{ModId}}_LotusSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "LotusPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Lotus"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_LotusSyrup",
+                            "ItemId": "(O){{ModId}}_LotusSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_PansySyrup": {
+                    "Id": "{{ModId}}_PansySyrup",
+                    "Triggers": [
+                        {
+                            "Id": "PansyPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Pansy"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PansySyrup",
+                            "ItemId": "(O){{ModId}}_PansySyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_RoseSyrup": {
+                    "Id": "{{ModId}}_RoseSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "RosePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Rose"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_RoseSyrup",
+                            "ItemId": "(O){{ModId}}_RoseSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                }
+            }
         }
     ]
 }

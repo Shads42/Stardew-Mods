@@ -1,0 +1,95 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add clover to syrupmachine",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ASMId}}_SyrupMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_SVE_CloverSyrup": {
+                    "Id": "{{ModId}}_CloverSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "CloverPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{SVEId}}_Lucky_Four_Leaf_Clover"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CloverSyrup",
+                            "ItemId": "(O){{ModId}}_CloverSyrup","CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                }
+            }
+        },
+        {
+            "LogName": "Add clover to soda machine",
+            "Action": "EditData",
+            "Target":"Data/Machines",
+            "TargetField": ["(BC){{ASMId}}_ArtisanalSodaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_SVE_CloverSoda": {
+                    "Id": "{{ModId}}_CloverSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "CloverSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_CloverSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CloverSoda",
+                            "ItemId": "(O){{ModId}}_CloverSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                }
+            }
+        },
+        {
+            "LogName": "Add clover to cream soda machine",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ASMId}}_CreamSodaMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_SVE_CloverCreamSoda": {
+                    "Id": "{{ModId}}_CloverCreamSoda",
+                    "Triggers": [
+                        {
+                            "Id": "CloverSyrupPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_CloverSyrup"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CloverCreamSoda",
+                            "ItemId": "(O){{ModId}}_CloverCreamSoda",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 1500
+                }
+            }
+        }
+    ]
+}

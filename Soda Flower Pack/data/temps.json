@@ -1,3 +1,153 @@
+// syrup machine entry
+
+"{{ModId}}_": {
+    "Id": "{{ModId}}_",
+    "Triggers": [
+        {
+            "Id": "PlacedInMachine",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O)Cornucopia_"
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "{{ModId}}_",
+            "ItemId": "(O){{ModId}}_",
+            "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+            }     
+        }
+    ],
+    "MinutesUntilReady": 360
+},
+
+// soda machine entry 
+"{{ModId}}_": {
+    "Id": "{{ModId}}_",
+    "Triggers": [
+        {
+            "Id": "PlacedInMachine",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O){{ModId}}_"
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "{{ModId}}_",
+            "ItemId": "(O){{ModId}}_",
+            "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Soda}}"
+            }     
+        }
+    ],
+    "MinutesUntilReady": 1500
+},
+
+// cream soda entry
+"{{ModId}}_": {
+    "Id": "{{ModId}}_",
+    "Triggers": [
+        {
+            "Id": "SyrupPlacedInMachine",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O){{ModId}}_"
+        }
+    ],
+    "OutputItem": [
+        {
+            "Id": "{{ModId}}_",
+            "ItemId": "(O){{ModId}}_",
+            "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ASMId}}_SparklingWater",
+                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                "selph.ExtraMachineConfig.RequirementId.2": "(O){{ASMId}}_VanillaExtract",
+                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_CreamSoda}}"
+            }     
+        }
+    ],
+    "MinutesUntilReady": 1500
+},
+
+// gift tastes
+// 1 = love, 2 or 3 = like, 4 or 5 = dislike, 6 or 7 = hate, 
+// 8 or 9 = neutral
+{
+    "Changes": [
+        {
+            "LogName": "",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", ],
+                    "Value": "",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", ],
+                    "Value": "",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// objects
 
 "{{ModId}}_": {
     "Name": "{{ModId}}_",
@@ -14,7 +164,7 @@
         "color_",
         "drink_item",
         "cream_soda_item",
-        "cream_sodamaker_product"
+        "flower_cream_sodamaker_product"
     ],
     "Buffs": [
         {
@@ -73,7 +223,7 @@
         "color_",
         "drink_item",
         "soda_item",
-        "sodamaker_product"
+        "flower_sodamaker_product"
     ],
     "Buffs": [
         {

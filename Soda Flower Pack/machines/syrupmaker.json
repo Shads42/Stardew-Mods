@@ -3,8 +3,141 @@
         {
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": ["(BC)Shads42.ArtisanalSodaMakersContinued_SyrupMaker", "OutputRules"],
-            "Entries": {}
+            "TargetField": ["(BC){{ASMId}}_SyrupMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_BlueJazzSyrup": {
+                    "Id": "{{ModId}}_BlueJazzSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "BlueJazzPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)597"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_BlueJazzSyrup",
+                            "ItemId": "(O){{ModId}}_BlueJazzSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_CrocusSyrup": {
+                    "Id": "{{ModId}}_CrocusSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "CrocusPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)418"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CrocusSyrup",
+                            "ItemId": "(O){{ModId}}_CrocusSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_DandelionSyrup": {
+                    "Id": "{{ModId}}_DandelionSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "DandelionPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)22"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_DandelionSyrup",
+                            "ItemId": "(O){{ModId}}_DandelionSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_FairyRoseSyrup": {
+                    "Id": "{{ModId}}_FairyRoseSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "FairyRosePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)595"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FairyRoseSyrup",
+                            "ItemId": "(O){{ModId}}_FairyRoseSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_SunflowerSyrup": {
+                    "Id": "{{ModId}}_SunflowerSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "SunflowerPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)421"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_SunflowerSyrup",
+                            "ItemId": "(O){{ModId}}_SunflowerSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_TulipSyrup": {
+                    "Id": "{{ModId}}_TulipSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "TulipPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)591"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_TulipSyrup",
+                            "ItemId": "(O){{ModId}}_TulipSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                }
+            }
         }
     ]
 }

@@ -59,8 +59,9 @@
                     "ContextTags": [
                         "color_orange",
                         "drink_item",
-                        "syrup_item",
-                        "syrupamaker_product"
+                        "flower_syrup_item",
+                        "syrupamaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_FlowerSoda": {
@@ -78,7 +79,7 @@
                         "color_orange",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -107,7 +108,7 @@
                     "Name": "{{ModId}}_FlowerCreamSoda",
                     "Type": "Basic",
                     "Category": "-26", 
-                    "SpriteIndex": 4,
+                    "SpriteIndex": 3,
                     "DisplayName": "{{i18n:FlowerCreamSoda_Name}}",
                     "Description": "{{i18n:FlowerCreamSoda_Desc}}",
                     "Texture": "{{ModId}}/Objects",
@@ -118,7 +119,7 @@
                         "color_orange",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -163,8 +164,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_blue",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_CrocusSyrup": {
@@ -180,8 +182,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_yellow",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_DandelionSyrup": {
@@ -197,8 +200,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_yellow",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_FairyRoseSyrup": {
@@ -214,8 +218,45 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_purple",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
+                    ]
+                },
+                "{{ModId}}_SunflowerSyrup": {
+                    "Name": "{{ModId}}_SunflowerSyrup",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 46,
+                    "DisplayName": "{{i18n:SunflowerSyrup_Name}}",
+                    "Description": "{{i18n:SunflowerSyrup_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 146,
+                    "Edibility": -300,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_yellow",
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
+                    ]
+                },
+                "{{ModId}}_TulipSyrup": {
+                    "Name": "{{ModId}}_TulipSyrup",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 47,
+                    "DisplayName": "{{i18n:TulipSyrup_Name}}",
+                    "Description": "{{i18n:TulipSyrup_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 86,
+                    "Edibility": -300,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 }
             }
@@ -233,16 +274,17 @@
                     "Type": "Basic",
                     "Category": "-26", 
                     "SpriteIndex": 22,
-                    "DisplayName": "{{i18n:Chrysanthemum_Name}}",
-                    "Description": "{{i18n:Chrysanthemum_Desc}}",
+                    "DisplayName": "{{i18n:ChrysanthemumSyrup_Name}}",
+                    "Description": "{{i18n:ChrysanthemumSyrup_Desc}}",
                     "Texture": "{{ModId}}/Objects",
                     "Price": 122,
                     "Edibility": -300,
                     "IsDrink": true,
                     "ContextTags": [
                         "color_yellow",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_LotusSyrup": {
@@ -258,8 +300,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_orange",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_PansySyrup": {
@@ -275,8 +318,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_red",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_RoseSyrup": {
@@ -292,8 +336,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 }
             }
@@ -304,7 +349,7 @@
             "Target": "Data/Objects",
             "When": {
                 "HasMod | contains=Cornucopia.MoreFlowers": true,
-                "HasReadLetter | Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
+                "HasReadLetter | contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
             },
             "Entries": {
                 "{{ModId}}_BeeBalmSyrup": {
@@ -320,8 +365,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_BlueRoseSyrup": {
@@ -337,8 +383,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_blue",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_CamelliaSyrup": {
@@ -354,8 +401,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_white",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_CarnationSyrup": {
@@ -371,8 +419,27 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
+                    ]
+                },
+                "{{ModId}}_ChamomileSyrup": {
+                    "Name": "{{ModId}}_ChamomileSyrup",
+                    "Type": "Basic",
+                    "Category": "-26",
+                    "SpriteIndex": 21,
+                    "DisplayName": "{{i18n:ChamomileSyrup_Name}}",
+                    "Description": "{{i18n:ChamomileSyrup_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 104,
+                    "Edibility": -300,
+                    "IsDrink": true, 
+                    "ContextTags": [
+                        "color_yellow",
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_ClarySageSyrup": {
@@ -388,8 +455,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_yellow",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 }, "{{ModId}}_ClematisSyrup": {
                     "Name": "{{ModId}}_ClematisSyrup",
@@ -404,8 +472,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_brown",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_DahliaSyrup": {
@@ -421,8 +490,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_DaisySyrup": {
@@ -438,8 +508,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_brown",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_FallRoseSyrup": {
@@ -455,8 +526,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_GeraniumSyrup": {
@@ -472,8 +544,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_HibiscusSyrup": {
@@ -489,8 +562,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_red",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_HoneysuckleSyrup": {
@@ -506,8 +580,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_yellow",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_JasmineSyrup": {
@@ -523,8 +598,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_white",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_LavenderSyrup": {
@@ -540,8 +616,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_purple",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_LilacSyrup": {
@@ -557,8 +634,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_red",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_MagnoliaSyrup": {
@@ -574,10 +652,11 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
-                },
+                },/* 
                 "{{ModId}}_PassionFlowerSyrup": {
                     "Name": "{{ModId}}_PassionFlowerSyrup",
                     "Type": "Basic",
@@ -591,10 +670,11 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_red",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
-                },
+                }, */
                 "{{ModId}}_PeonySyrup": {
                     "Name": "{{ModId}}_PeonySyrup",
                     "Type": "Basic",
@@ -608,8 +688,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_PurpleConeflowerSyrup": {
@@ -625,8 +706,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_brown",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_SpringRoseSyrup": {
@@ -642,8 +724,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_pink",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_SummerRoseSyrup": {
@@ -659,8 +742,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_orange",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 },
                 "{{ModId}}_VioletSyrup": {
@@ -676,8 +760,9 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_purple",
-                        "syrup_item",
-                        "syrupmaker_product"
+                        "flower_syrup_item",
+                        "syrupmaker_product",
+                        "not_giftable"
                     ]
                 }
             }
@@ -703,7 +788,7 @@
                     "IsDrink": true,
                     "ContextTags": [
                         "color_green",
-                        "syrup_item",
+                        "flower_syrup_item",
                         "syrupmaker_product"
                     ]
                 }
@@ -729,7 +814,7 @@
                         "color_blue",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -769,7 +854,7 @@
                         "color_yellow",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -809,7 +894,7 @@
                         "color_yellow",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -849,7 +934,7 @@
                         "color_purple",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -889,7 +974,7 @@
                         "color_yellow",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -929,7 +1014,7 @@
                         "color_brown",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -979,7 +1064,7 @@
                         "color_yellow",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1019,7 +1104,7 @@
                         "color_orange",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1059,7 +1144,7 @@
                         "color_red",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1099,7 +1184,7 @@
                         "color_pink",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1132,12 +1217,931 @@
             "Target": "Data/Objects",
             "When": {
                 "HasMod | contains=Cornucopia.MoreFlowers": true,
-                "HasReadLetter | Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
+                "HasReadLetter | contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
             },
             "Entries": {
-
+                "{{ModId}}_BeeBalmSoda": {
+                    "Name": "{{ModId}}_BeeBalmSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 64,
+                    "DisplayName": "{{i18n:BeeBalmSoda_Name}}",
+                    "Description": "{{i18n:BeeBalmSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 255,
+                    "Edibility": 65,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1,
+                                "FishingLevel": 1,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_BlueRoseSoda": {
+                    "Name": "{{ModId}}_BlueRoseSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 66,
+                    "DisplayName": "{{i18n:BlueRoseSoda_Name}}",
+                    "Description": "{{i18n:BlueRoseSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 135,
+                    "Edibility": 110,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_blue",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 2,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 1,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_CamelliaSoda": {
+                    "Name": "{{ModId}}_CamelliaSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 67,
+                    "DisplayName": "{{i18n:CamelliaSoda_Name}}",
+                    "Description": "{{i18n:CamelliaSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 125,
+                    "Edibility": 65,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_white",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_CarnationSoda": {
+                    "Name": "{{ModId}}_CarnationSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 68,
+                    "DisplayName": "{{i18n:CarnationSoda_Name}}",
+                    "Description": "{{i18n:CarnationSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 305,
+                    "Edibility": 80,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 1,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_ChamomileSoda": {
+                    "Name": "{{ModId}}_ChamomileSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 69,
+                    "DisplayName": "{{i18n:ChamomileSoda_Name}}",
+                    "Description": "{{i18n:ChamomileSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 125,
+                    "Edibility": 30,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_yellow",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 1
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_ClarySageSoda": {
+                    "Name": "{{ModId}}_ClarySageSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 71,
+                    "DisplayName": "{{i18n:ClarySageSoda_Name}}",
+                    "Description": "{{i18n:ClarySageSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 285,
+                    "Edibility": 75,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_yellow",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_ClematisSoda": {
+                    "Name": "{{ModId}}_ClematisSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 72,
+                    "DisplayName": "{{i18n:ClematisSoda_Name}}",
+                    "Description": "{{i18n:ClematisSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 145,
+                    "Edibility": 35,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_DahliaSoda": {
+                    "Name": "{{ModId}}_DahliaSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 74,
+                    "DisplayName": "{{i18n:DahliaSoda_Name}}",
+                    "Description": "{{i18n:DahliaSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 175,
+                    "Edibility": 45,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 1
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_DaisySoda": {
+                    "Name": "{{ModId}}_DaisySoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 75,
+                    "DisplayName": "{{i18n:DaisySoda_Name}}",
+                    "Description": "{{i18n:DaisySoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 85,
+                    "Edibility": 25,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_FallRoseSoda": {
+                    "Name": "{{ModId}}_FallRoseSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 78,
+                    "DisplayName": "{{i18n:FallRoseSoda_Name}}",
+                    "Description": "{{i18n:FallRoseSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 135,
+                    "Edibility": 35,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_GeraniumSoda": {
+                    "Name": "{{ModId}}_GeraniumSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 79,
+                    "DisplayName": "{{i18n:GeraniumSoda_Name}}",
+                    "Description": "{{i18n:GeraniumSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 305,
+                    "Edibility": 80,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_HibiscusSoda": {
+                    "Name": "{{ModId}}_HibiscusSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 80,
+                    "DisplayName": "{{i18n:HibiscusSoda_Name}}",
+                    "Description": "{{i18n:HibiscusSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 185,
+                    "Edibility": 50,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_red",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_HoneysuckleSoda": {
+                    "Name": "{{ModId}}_HoneysuckleSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 81,
+                    "DisplayName": "{{i18n:HoneysuckleSoda_Name}}",
+                    "Description": "{{i18n:HoneysuckleSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 155,
+                    "Edibility": 45,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_yellow",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 1,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_JasmineSoda": {
+                    "Name": "{{ModId}}_JasmineSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 82,
+                    "DisplayName": "{{i18n:JasmineSoda_Name}}",
+                    "Description": "{{i18n:JasmineSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 265,
+                    "Edibility": 70,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_white",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_LavenderSoda": {
+                    "Name": "{{ModId}}_LavenderSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 83,
+                    "DisplayName": "{{i18n:LavenderSoda_Name}}",
+                    "Description": "{{i18n:LavenderSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 465,
+                    "Edibility": 110,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_purple",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_LilacSoda": {
+                    "Name": "{{ModId}}_LilacSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 84,
+                    "DisplayName": "{{i18n:LilacSoda_Name}}",
+                    "Description": "{{i18n:LilacSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 385,
+                    "Edibility": 100,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_red",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_MagnoliaSoda": {
+                    "Name": "{{ModId}}_MagnoliaSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 86,
+                    "DisplayName": "{{i18n:MagnoliaSoda_Name}}",
+                    "Description": "{{i18n:MagnoliaSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 225,
+                    "Edibility": 65,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },/* 
+                "{{ModId}}_PassionFlowerSoda": {
+                    "Name": "{{ModId}}_PassionFlowerSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 88,
+                    "DisplayName": "{{i18n:PassionFlowerSoda_Name}}",
+                    "Description": "{{i18n:PassionFlowerSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 345,
+                    "Edibility": 95,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_red",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                }, */
+                "{{ModId}}_PeonySoda": {
+                    "Name": "{{ModId}}_PeonySoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 89,
+                    "DisplayName": "{{i18n:PeonySoda_Name}}",
+                    "Description": "{{i18n:PeonySoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 505,
+                    "Edibility": 120,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 1,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_PurpleConeflowerSoda": {
+                    "Name": "{{ModId}}_PurpleConeflowerSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 90,
+                    "DisplayName": "{{i18n:PurpleConeflowerSoda_Name}}",
+                    "Description": "{{i18n:PurpleConeflowerSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 175,
+                    "Edibility": 85,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpringRoseSoda": {
+                    "Name": "{{ModId}}_SpringRoseSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 92,
+                    "DisplayName": "{{i18n:SpringRoseSoda_Name}}",
+                    "Description": "{{i18n:SpringRoseSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 135,
+                    "Edibility": 35,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SummerRoseSoda": {
+                    "Name": "{{ModId}}_SummerRoseSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 93,
+                    "DisplayName": "{{i18n:SummerRoseSoda_Name}}",
+                    "Description": "{{i18n:SummerRoseSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 135,
+                    "Edibility": 35,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_orange",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 1,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_VioletSoda": {
+                    "Name": "{{ModId}}_VioletSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 96,
+                    "DisplayName": "{{i18n:VioletSoda_Name}}",
+                    "Description": "{{i18n:VioletSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 115,
+                    "Edibility": 30,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_purple",
+                        "drink_item",
+                        "soda_item",
+                        "flower_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                }                
             }
-        },
+        }, 
         {
             "LogName": "Add clover soda object",
             "Action": "EditData",
@@ -1161,7 +2165,7 @@
                         "color_green",
                         "drink_item",
                         "soda_item",
-                        "sodamaker_product"
+                        "flower_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1208,7 +2212,7 @@
                         "color_blue",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1248,7 +2252,7 @@
                         "color_yellow",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1288,7 +2292,7 @@
                         "color_yellow",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1328,7 +2332,7 @@
                         "color_purple",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1368,7 +2372,7 @@
                         "color_yellow",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1408,7 +2412,7 @@
                         "color_brown",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1458,7 +2462,7 @@
                         "color_yellow",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1498,7 +2502,7 @@
                         "color_orange",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1538,7 +2542,7 @@
                         "color_red",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1578,7 +2582,7 @@
                         "color_pink",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {
@@ -1611,12 +2615,931 @@
             "Target": "Data/Objects",
             "When": {
                 "HasMod | contains=Cornucopia.MoreFlowers": true,
-                "HasReadLetter | Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
+                "HasReadLetter | contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
             },
             "Entries": {
-
+                "{{ModId}}_BeeBalmCreamSoda": {
+                    "Name": "{{ModId}}_BeeBalmCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 112,
+                    "DisplayName": "{{i18n:BeeBalmCreamSoda_Name}}",
+                    "Description": "{{i18n:BeeBalmCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 280,
+                    "Edibility": 70,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 1,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 1
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_BlueRoseCreamSoda": {
+                    "Name": "{{ModId}}_BlueRoseCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 114,
+                    "DisplayName": "{{i18n:BlueRoseCreamSoda_Name}}",
+                    "Description": "{{i18n:BlueRoseCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 160,
+                    "Edibility": 115,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_blue",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 2,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 1,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_CamelliaCreamSoda": {
+                    "Name": "{{ModId}}_CamelliaCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 115,
+                    "DisplayName": "{{i18n:CamelliaCreamSoda_Name}}",
+                    "Description": "{{i18n:CamelliaCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 150,
+                    "Edibility": 70,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_white",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_CarnationCreamSoda": {
+                    "Name": "{{ModId}}_CarnationCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 116,
+                    "DisplayName": "{{i18n:CarnationCreamSoda_Name}}",
+                    "Description": "{{i18n:CarnationCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 330,
+                    "Edibility": 85,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 1,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_ChamomileCreamSoda": {
+                    "Name": "{{ModId}}_ChamomileCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 117,
+                    "DisplayName": "{{i18n:ChamomileCreamSoda_Name}}",
+                    "Description": "{{i18n:ChamomileCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 140,
+                    "Edibility": 30,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_yellow",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 1
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_ClarySageCreamSoda": {
+                    "Name": "{{ModId}}_ClarySageCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 119,
+                    "DisplayName": "{{i18n:ClarySageCreamSoda_Name}}",
+                    "Description": "{{i18n:ClarySageCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 310,
+                    "Edibility": 80,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_yelow",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_ClematisCreamSoda": {
+                    "Name": "{{ModId}}_ClematisCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 120,
+                    "DisplayName": "{{i18n:ClematisCreamSoda_Name}}",
+                    "Description": "{{i18n:ClematisCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 170,
+                    "Edibility": 40,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_DahliaCreamSoda": {
+                    "Name": "{{ModId}}_DahliaCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 123,
+                    "DisplayName": "{{i18n:DahliaCreamSoda_Name}}",
+                    "Description": "{{i18n:DahliaCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 110,
+                    "Edibility": 30,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_DaisyCreamSoda": {
+                    "Name": "{{ModId}}__DaisyCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 122,
+                    "DisplayName": "{{i18n:DaisyCreamSoda_Name}}",
+                    "Description": "{{i18n:DaisyCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 200,
+                    "Edibility": 50,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_FallRoseCreamSoda": {
+                    "Name": "{{ModId}}_FallRoseCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 126,
+                    "DisplayName": "{{i18n:FallRoseCreamSoda_Name}}",
+                    "Description": "{{i18n:FallRoseCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 160,
+                    "Edibility": 40,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_GeraniumCreamSoda": {
+                    "Name": "{{ModId}}_GeraniumCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 127,
+                    "DisplayName": "{{i18n:GeraniumCreamSoda_Name}}",
+                    "Description": "{{i18n:GeraniumCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 330,
+                    "Edibility": 85,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_HibiscusCreamSoda": {
+                    "Name": "{{ModId}}_HibiscusCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 128,
+                    "DisplayName": "{{i18n:HibiscusCreamSoda_Name}}",
+                    "Description": "{{i18n:HibiscusCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 210,
+                    "Edibility": 55,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_red",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_HoneysuckleCreamSoda": {
+                    "Name": "{{ModId}}_HoneysuckleCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 129,
+                    "DisplayName": "{{i18n:HoneysuckleCreamSoda_Name}}",
+                    "Description": "{{i18n:HoneysuckleCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 180,
+                    "Edibility": 50,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_yellow",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 1,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_JasmineCreamSoda": {
+                    "Name": "{{ModId}}_JasmineCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 130,
+                    "DisplayName": "{{i18n:JasmineCreamSoda_Name}}",
+                    "Description": "{{i18n:JasmineCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 290,
+                    "Edibility": 75,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_white",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_LavenderCreamSoda": {
+                    "Name": "{{ModId}}_LavenderCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 131,
+                    "DisplayName": "{{i18n:LavenderCreamSoda_Name}}",
+                    "Description": "{{i18n:LavenderCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 490,
+                    "Edibility": 115,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_purple",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 1,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_LilacCreamSoda": {
+                    "Name": "{{ModId}}_LilacCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 132,
+                    "DisplayName": "{{i18n:LilacCreamSoda_Name}}",
+                    "Description": "{{i18n:LilacCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 410,
+                    "Edibility": 100,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_red",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_MagnoliaCreamSoda": {
+                    "Name": "{{ModId}}_MagnoliaCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 134,
+                    "DisplayName": "{{i18n:MagnoliaCreamSoda_Name}}",
+                    "Description": "{{i18n:MagnoliaCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 250,
+                    "Edibility": 70,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },/* 
+                "{{ModId}}_PassionFlowerCreamSoda": {
+                    "Name": "{{ModId}}_PassionFlowerCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 136,
+                    "DisplayName": "{{i18n:PassionFlowerCreamSoda_Name}}",
+                    "Description": "{{i18n:PassionFlowerCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 370,
+                    "Edibility": 100,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_red",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 1,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                }, */
+                "{{ModId}}_PeonyCreamSoda": {
+                    "Name": "{{ModId}}_PeonyCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 137,
+                    "DisplayName": "{{i18n:PeonyCreamSoda_Name}}",
+                    "Description": "{{i18n:PeonyCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 530,
+                    "Edibility": 125,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 1,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_PurpleConeflowerCreamSoda": {
+                    "Name": "{{ModId}}_PurpleConeflowerCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 138,
+                    "DisplayName": "{{i18n:PurpleConeflowerCreamSoda_Name}}",
+                    "Description": "{{i18n:PurpleConeflowerCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 200,
+                    "Edibility": 90,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_brown",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 1,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SpringRoseCreamSoda": {
+                    "Name": "{{ModId}}_SpringRoseCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 140,
+                    "DisplayName": "{{i18n:SpringRoseCreamSoda_Name}}",
+                    "Description": "{{i18n:SpringRoseCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 160,
+                    "Edibility": 40,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_pink",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_SummerRoseCreamSoda": {
+                    "Name": "{{ModId}}_SummerRoseCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 141,
+                    "DisplayName": "{{i18n:SummerRoseCreamSoda_Name}}",
+                    "Description": "{{i18n:SummerRoseCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 160,
+                    "Edibility": 40,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_orange",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 1,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                },
+                "{{ModId}}_VioletCreamSoda": {
+                    "Name": "{{ModId}}_VioletCreamSoda",
+                    "Type": "Basic",
+                    "Category": "-26", 
+                    "SpriteIndex": 144,
+                    "DisplayName": "{{i18n:VioletCreamSoda_Name}}",
+                    "Description": "{{i18n:VioletCreamSoda_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "Price": 160,
+                    "Edibility":40 ,
+                    "IsDrink": true,
+                    "ContextTags": [
+                        "color_purple",
+                        "drink_item",
+                        "cream_soda_item",
+                        "flower_cream_sodamaker_product"
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 360,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 1,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                }
             }
-        },
+        }, 
         {
             "LogName": "Add clover cream soda object",
             "Action": "EditData",
@@ -1640,7 +3563,7 @@
                         "color_green",
                         "drink_item",
                         "cream_soda_item",
-                        "cream_sodamaker_product"
+                        "flower_cream_sodamaker_product"
                     ],
                     "Buffs": [
                         {

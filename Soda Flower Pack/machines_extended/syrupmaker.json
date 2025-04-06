@@ -3,8 +3,493 @@
         {
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": ["(BC)Shads42.ArtisanalSodaMakersContinued_SyrupMaker", "OutputRules"],
-            "Entries": {}
+            "TargetField": ["(BC){{ASMId}}_SyrupMaker", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_BeeBalmSyrup": {
+                    "Id": "{{ModId}}_BeeBalmSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "BeeBalmPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_BeeBalm"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_BeeBalmSyrup",
+                            "ItemId": "(O){{ModId}}_BeeBalmSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_BlueRoseSyrup": {
+                    "Id": "{{ModId}}_BlueRoseSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "WinterRosePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_RoseWinter"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_BlueRoseSyrup",
+                            "ItemId": "(O){{ModId}}_BlueRoseSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_CamelliaSyrup": {
+                    "Id": "{{ModId}}_CamelliaSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "CamelliaPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Camellia"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CamelliaSyrup",
+                            "ItemId": "(O){{ModId}}_CamelliaSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_CarnationSyrup": {
+                    "Id": "{{ModId}}_CarnationSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "CarnationPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Carnation"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CarnationSyrup",
+                            "ItemId": "(O){{ModId}}_CarnationSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_ChamomileSyrup": {
+                    "Id": "{{ModId}}_ChamomileSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "ChamomilePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Chamomile"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_ChamomileSyrup",
+                            "ItemId": "(O){{ModId}}_ChamomileSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_ClarySageSyrup": {
+                    "Id": "{{ModId}}_ClarySageSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "ClarySagePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_ClarySage"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_ClarySageSyrup",
+                            "ItemId": "(O){{ModId}}_ClarySageSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_ClematisSyrup": {
+                    "Id": "{{ModId}}_ClematisSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "ClematisPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Clematis"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_ClematisSyrup",
+                            "ItemId": "(O){{ModId}}_ClematisSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_DahliaSyrup": {
+                    "Id": "{{ModId}}_DahliaSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "DahliaPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Dahlia"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_DahliaSyrup",
+                            "ItemId": "(O){{ModId}}_DahliaSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_DaisySyrup": {
+                    "Id": "{{ModId}}_DaisySyrup",
+                    "Triggers": [
+                        {
+                            "Id": "DaisyPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Daisy"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_DaisySyrup",
+                            "ItemId": "(O){{ModId}}_DaisySyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_FallRoseSyrup": {
+                    "Id": "{{ModId}}_FallRoseSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "FallRosePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_RoseFall"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FallRoseSyrup",
+                            "ItemId": "(O){{ModId}}_FallRoseSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_GeraniumSyrup": {
+                    "Id": "{{ModId}}_GeraniumSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "GeraniumPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Geranium"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_GeraniumSyrup",
+                            "ItemId": "(O){{ModId}}_GeraniumSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_HibiscusSyrup": {
+                    "Id": "{{ModId}}_HibiscusSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "HibiscusPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Hibiscus"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_HibiscusSyrup",
+                            "ItemId": "(O){{ModId}}_HibiscusSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_HoneysuckleSyrup": {
+                    "Id": "{{ModId}}_HoneysuckleSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "HoneysucklePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Honeysuckle"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_HoneysuckleSyrup",
+                            "ItemId": "(O){{ModId}}_HoneysuckleSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_JasmineSyrup": {
+                    "Id": "{{ModId}}_JasmineSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "JasminePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Jasmine"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_JasmineSyrup",
+                            "ItemId": "(O){{ModId}}_JasmineSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_LavenderSyrup": {
+                    "Id": "{{ModId}}_LavenderSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "LavenderPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Lavender"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_LavenderSyrup",
+                            "ItemId": "(O){{ModId}}_LavenderSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_LilacSyrup": {
+                    "Id": "{{ModId}}_LilacSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "LilacPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Lilac"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_LilacSyrup",
+                            "ItemId": "(O){{ModId}}_LilacSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_MagnoliaSyrup": {
+                    "Id": "{{ModId}}_MagnoliaSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "MagnoliaPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Magnolia"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_MagnoliaSyrup",
+                            "ItemId": "(O){{ModId}}_MagnoliaSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_PeonySyrup": {
+                    "Id": "{{ModId}}_PeonySyrup",
+                    "Triggers": [
+                        {
+                            "Id": "PeonyPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Peony"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PeonySyrup",
+                            "ItemId": "(O){{ModId}}_PeonySyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_PurpleConeflowerSyrup": {
+                    "Id": "{{ModId}}_PurpleConeflowerSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "PurpleConeflowerPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_PurpleConeflower"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PurpleConeflowerSyrup",
+                            "ItemId": "(O){{ModId}}_PurpleConeflowerSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_SpringRoseSyrup": {
+                    "Id": "{{ModId}}_SpringRoseSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "SpringRosePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_RoseSpring"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_SpringRoseSyrup",
+                            "ItemId": "(O){{ModId}}_SpringRoseSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_SummerRoseSyrup": {
+                    "Id": "{{ModId}}_SummerRoseSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "SummerRosePlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_RoseSummer"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_SummerRoseSyrup",
+                            "ItemId": "(O){{ModId}}_SummerRoseSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                },
+                "{{ModId}}_VioletSyrup": {
+                    "Id": "{{ModId}}_VioletSyrup",
+                    "Triggers": [
+                        {
+                            "Id": "VioletPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)Cornucopia_Violet"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_VioletSyrup",
+                            "ItemId": "(O){{ModId}}_VioletSyrup",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)245",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Sugar}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                }
+            }
         }
     ]
 }

@@ -3,8 +3,51 @@
         {
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": ["(BC)Shads42.ArtisanalSodaMakersContinued_Carbonator", "OutputRules"],
-            "Entries": {}
+            "TargetField": ["(BC){{ASMId}}_Carbonator", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_FlowerSparklingWater": {
+                    "Id": "{{ModId}}_FlowerSparklingWater",
+                    "Triggers": [
+                        {
+                            "Id": "FlowerPlacedInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": ["category_flowers"],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FlowerSparklingWater",
+                            "ItemId": "(O){{ModId}}_FlowerSparklingWater",
+                            "ObjectInternalName": "(O){{ModId}}_FlowerSparklingWater",
+                            "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_WaterString %PRESERVED_DISPLAY_NAME]",
+                            "PreserveId": "DROP_IN",
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Id": "{{ModId}}_FlowerSparklingWater",
+                                    "Modification": "Multiply",
+                                    "Amount": 1.2
+                                },
+                                
+                                {
+                                    "Id": "{{ModId}}_FlowerSparklingWater",
+                                    "Modification": "Add",
+                                    "Amount": 15
+                                }
+                            ],
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O)382",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 3,
+                                "selph.ExtraMachineConfig.RequirementId.2": "{{ASMId}}_FreshWater",
+                                "selph.ExtraMachineConfig.RequirementCount.2": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Water}}" 
+                            }
+                        }
+                    ],
+                    "MinutesUntilReady": 800
+                }
+            }
         }
     ]
 }

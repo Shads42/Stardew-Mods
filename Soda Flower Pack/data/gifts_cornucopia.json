@@ -1,0 +1,283 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Abigail Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 1],
+                    "Value": "{{ModId}}_LotusSoda {{ModId}}_PansySoda {{ModId}}_LotusCreamSoda {{ModId}}_PansyCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Alex Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Clint Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 3],
+                    "Value": "{{ModId}}_PansySoda {{ModId}}_PansyCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Dwarf Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Emily Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 3],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_PansySoda {{ModId}}_RoseSoda {{ModId}}_ChrysanthemumCreamSoda {{ModId}}_PansyCreamSoda {{ModId}}_RoseCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Evelyn Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 3],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda {{ModId}}_LotusSoda {{ModId}}_LotusCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add George Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 3],
+                    "Value": "{{ModId}}_PansySoda {{ModId}}_PansyCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Gus Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Haley Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 3],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_LotusSoda {{ModId}}_PansySoda {{ModId}}_ChrysanthemumCreamSoda {{ModId}}_LotusCreamSoda {{ModId}}_PansyCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Krobus Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 3],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Maru Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pam Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Penny Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 1],
+                    "Value": "{{ModId}}_RoseSoda {{ModId}}_RoseCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pierre",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Robin Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Robin", 1],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_PansySoda {{ModId}}_RoseSoda {{ModId}}_ChrysanthemumCreamSoda {{ModId}}_PansyCreamSoda {{ModId}}_RoseCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sandy",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 3],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_LotusSoda {{ModId}}_RoseSoda {{ModId}}_ChrysanthemumCreamSoda {{ModId}}_LotusCreamSoda {{ModId}}_RoseCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sebastian",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 3],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Shane Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Vincent Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Willy Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Wizard Cornucopia",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 1],
+                    "Value": "{{ModId}}_LotusSoda {{ModId}}_LotusCreamSoda",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 9],
+                    "Value": "{{ModId}}_ChrysanthemumSoda {{ModId}}_ChrysanthemumCreamSoda",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}
