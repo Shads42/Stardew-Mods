@@ -1,0 +1,392 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Caroline",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Caroline", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Clint",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 7],
+                    "Value": "flower_shaved_ice_item ",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 1],
+                    "Value": "{{ModId}}_BlueJazzShavedIce {{ModId}}",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 3],
+                    "Value": "{{ModId}}_DandelionShavedIce"
+                }
+            ]
+        },
+        {
+            "LogName": "Add Dwarf",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Elliott",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Emily",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 1],
+                    "Value": "flower_shaved_ice_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 3],
+                    "Value": "{{ModId}}_DandelionShavedIce"
+                }
+            ]
+        },
+        {
+            "LogName": "Add Evelyn",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 1],
+                    "Value": "flower_shaved_ice_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 3],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce"
+                }
+            ]
+        },
+        {
+            "LogName": "Add George",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 7],
+                    "Value": "flower_shaved_ice_item",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Haley",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 1],
+                    "Value": "flower_shaved_ice_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 3],
+                    "Value": "{{ModId}}_BlueJazzShavedIce {{ModId}}_CrocusShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 9],
+                    "Value":"{{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Harvey",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 1],
+                    "Value": "{{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jas",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 1],
+                    "Value": "{{ModId}}_FairyRoseShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jodi",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jodi", 9],
+                    "Value": "flower_shaved_ice_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jodi", 5],
+                    "Value": "{{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Kent",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Kent", 9],
+                    "Value": "{{ModId}}_BlueJazzShavedIce {{ModId}}_CrocusShavedIce {{ModId}}_FairyRoseShavedIce {{ModId}}_FlowerShavedIce {{ModId}}_SunflowerShavedIce {{ModId}}_TulipShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Kent", 3],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Krobus",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leah",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 9],
+                    "Value": "flower_shaved_ice_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 3],
+                    "Value": "{{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        
+        {
+            "LogName": "Add Linus",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Linus", 1],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Penny",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 1],
+                    "Value": "{{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pierre",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 1],
+                    "Value": "{{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sam",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sandy",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 1],
+                    "Value": "flower_shaved_ice_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 3],
+                    "Value": "{{ModId}}_BlueJazzShavedIce {{ModId}}_TulipShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sebastian",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 7],
+                    "Value": "flower_shaved_ice_item",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 9],
+                    "Value": "{{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Shane",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 1],
+                    "Value": "{{ModId}}_BlueJazzShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Vincent",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Willy",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Wizard",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 9],
+                    "Value": "{{ModId}}_CrocusShavedIce {{ModId}}_DandelionShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

@@ -2,14 +2,26 @@
     // misc objects
     "Ice_Name": "Ice",
     "Ice_Desc": "A block of ice carted in from somewhere up north. Seems like the desert mages don't need electric refrigeration!",
+    "VanillaIC_Name": "Vanilla Ice Cream",
+    "VanillaIC_Desc": "A classic floral flavor that goes with just about anything.",
+    "ChocolateIC_Name": "Chocolate Ice Cream",
+    "ChocolateIC_Desc": "A classic ice cream flavor. It's hard to go wrong with chocolate.",
+    "StrawberryIC_Name": "Strawberry Ice Cream",
+    "StrawberryIC_Desc": "A sweet pink ice cream that's perfect for springtime.",
+
+    // machine names
+    "IceMachine_Name": "Shaved Ice Machine",
+    "IceMachine_Desc":  "Makes shaved ice from water and flavored syrup!",
 
     // missing message
-    "Msg_Generic": "Requires 1 Ice",
-    "Msg_RainbowIce": "Requires 1 Ice, ",
+    "Msg_Ice": "Requires 1 Ice",
+    "Msg_RainbowIce": "Requires 1 Ice, 1 Cherry Syrup, 1 Lemon Syrup, 1 Blueberry Syrup, and 1 Melon Syrup",
 
     // Shaved Ice - default pack
     "AncientIce_Name": "Ancient Shaved Ice",
     "AncientIce_Desc": "Ancient Syrup poured generously over shaved ice. Perfect for hot days!",
+    "AppleIce_Name": "Apple Shaved Ice",
+    "AppleIce_Desc": "Apple Syrup poured generous over shaved ice. Perfect for hot days!",
     "ApricotIce_Name": "Apricot Shaved Ice",
     "ApricotIce_Desc": "Apricot Syrup poured generously over shaved ice. Perfect for hot days!",
     "AvocadoIce_Name": "Avocado Shaved Ice",
@@ -56,7 +68,8 @@
     "JuniperIce_Desc": "Juniper Syrup poured generously over shaved ice. Perfect for hot days!",
     "LemonIce_Name": "Lemon Shaved Ice",
     "LemonIce_Desc": "Lemon Syrup poured generously over shaved ice. Perfect for hot days!",
-    "LimeIce_Name": "Lime Syrup poured generously over shaved ice. Perfect for hot days!",
+    "LimeIce_Name": "Lime Shaved Ice",
+    "LimeIce_Desc": "Lime Syrup poured generously over shaved ice. Perfect for hot days!",
     "LycheeIce_Name": "Lychee Shaved Ice",
     "LycheeIce_Desc": "Lychee Syrup poured generously over shaved ice. Perfect for hot days!",
     "MangoIce_Name": "Mango Shaved Ice",
@@ -113,8 +126,8 @@
     "BlackMagicIce_Desc": "Shaved ice doused in sweet black magic viola syrup.",
     "BlueJazzIce_Name": "Blue Jazz Shaved Ice",
     "BlueJazzIce_Desc": "Shaved ice doused in sweet blue jazz syrup.",
-    "BlueRoseIce_Name": "Blue Rose Shaved Ice",
-    "BlueRoseIce_Desc": "Shaved ice doused in sweet blue rose syrup.",
+    "WinterRoseIce_Name": "Winter Rose Shaved Ice",
+    "WinterRoseIce_Desc": "Shaved ice doused in sweet winter rose syrup.",
     "CamelliaIce_Name": "Camellia Shaved Ice",
     "CamelliaIce_Desc": "Shaved ice doused in mild camellia syrup.",
     "CarnationIce_Name": "Carnation Shaved Ice",

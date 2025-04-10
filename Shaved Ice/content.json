@@ -1,0 +1,108 @@
+{
+    "Format": "2.0.0",
+    "DynamicTokens": [
+        {
+            "Name": "SVEId",
+            "Value": "FlashShifter.StardewValleyExpandedCP"
+        },
+        {
+            "Name": "WAGId",
+            "Value": "Wildflour.AtelierGoods"
+        },
+        {
+            "Name": "ASMId",
+            "Value": "Hadi.JASoda"
+        },
+        {
+            "Name": "ASMFId",
+            "Value": "Shads42.ASM_FlowerPack"
+        }
+    ],
+    "Changes": [
+        {
+            "LogName": "Load basic sprites",
+            "Action": "Load",
+            "Target": "{{ModId}}/objects_default, {{ModId}}/machines, {{ModId}}/objects_temp",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load flower spritesheets",
+            "Action": "Load",
+            "Target": "{{ModId}}/objects_flowers",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "When": {
+                "HasMod | contains={{ASMFId}}": true
+            }
+        },
+        // add fruit shaved ices and default data 
+        {
+            "LogName": "Load default data",
+            "Action": "Include",
+            "FromFile": "data/objects.json, data/bigcraftables.json, data/cooking.json, data/shops_saloon.json, data/shops_icecreamstand.json, data/gifts.json, machines/shavedicemaker.json"
+        },
+        {
+            "LogName": "Load cornucopia more crops default data",
+            "Action": "Include",
+            "FromFile": "machines-cornucopia/icemaker_default.json",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true
+            }
+        },
+        {
+            "LogName": "Load Cornucopia more crops extended crops data",
+            "Action": "Include",
+            "FromFile": "machines-cornucopia/icemaker_extended.json",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter | contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+            }
+        },
+        {
+            "LogName": "Load Cornucopia more crops extended trees data",
+            "Action": "Include",
+            "FromFile": "machines-cornucopia/icemaker_trees.json",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter | contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+            }
+        },
+
+        // add flower shaved ices
+        {
+            "LogName": "Load default flower shaved ices",
+            "Action": "Include",
+            "FromFile": "data-flowers/objects.json, machines-flowers/flowers_vanilla.json, data-flowers/gifts_vanilla.json",
+            "When": {
+                "HasMod | contains={{ASMFId}}": true
+            }
+        },
+        {
+            "LogName": "Load cornucopia default flower shaved ices",
+            "Action": "Include",
+            "FromFile": "machines-flowers/flowers_cornucopia.json, data-flowers/gifts_cornucopia.json",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreFlowers": true,
+                "HasMod | contains={{ASMFId}}": true
+            }
+        },
+        {
+            "LogName": "Load cornucopia extended flowers shaved ices", 
+            "Action": "Include",
+            "FromFile": "machines-flowers/flowers_extended.json, data-flowers/gifts_cornucopia_extended.json",
+            "When": {
+                "HasMod | contains=Cornucopia.MoreFlowers": true,
+                "HasMod | contains={{ASMFId}}": true,
+                "HasReadLetter | contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
+            }
+        },
+        {
+            "LogName": "Load SVE gift taste",
+            "Action": "Include",
+            "FromFile": "data-flowers/gifts_sve.json",
+            "When": {
+                "HasMod | contains={{ASMFId}}": true,
+                "HasMod | contains={{SVEId}}": true
+            }
+        }
+    ]
+}

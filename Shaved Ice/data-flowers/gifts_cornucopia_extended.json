@@ -1,0 +1,519 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Abigail Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 1],
+                    "Value": "{{ModId}}_FallRoseShavedIce {{ModId}}_VioletShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Alex Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Caroline Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Caroline", 1],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_JasmineShavedIce {{ModId}}_SpringRoseShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Clint Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 3],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_ChamomileShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_HoneysuckleShavedIce {{ModId}}_LilacShavedIce {{ModId}}_PurpleConeflowerShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 9],
+                    "Value": "{{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Dwarf Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 7],
+                    "Value": "{{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_GeraniumShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Elliott Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", 1],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_JasmineShavedIce {{ModId}}_LavenderShavedIce {{ModId}}_SummerRoseShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Emily Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 3],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_FallRoseShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HoneysuckleShavedIce {{ModId}}_JasmineShavedIce {{ModId}}_MagnoliaShavedIce {{ModId}}_PeonyShavedIce {{ModId}}_PurpleConeflowerShavedIce {{ModId}}_SpringRoseShavedIce {{ModId}}_VioletShavedIce",
+                    "Delimiter": " "
+                }                
+            ]
+        },
+        {
+            "LogName": "Add Evelyn Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 3],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_FallRoseShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_HoneysuckleShavedIce {{ModId}}_LavenderShavedIce {{ModId}}_LilacShavedIce {{ModId}}_PurpleConeflowerShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add George Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 3],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_ChamomileShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_HoneysuckleShavedIce {{ModId}}_PurpleConeflowerShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 9],
+                    "Value": "{{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Gus Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 1],
+                    "Value": "{{ModId}}_GeraniumShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Haley Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 3],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_ChamomileShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_FallRoseShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_HoneysuckleShavedIce {{ModId}}_JasmineShavedIce {{ModId}}_LilacShavedIce {{ModId}}_PeonyShavedIce {{ModId}}_PurpleConeflowerShavedIce {{ModId}}_SummerRoseShavedIce {{ModId}}_VioletShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Harvey Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 1],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_ChamomileShavedIce {{ModId}}_PurpleConeflowerShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jas Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 1],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_FallRoseShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 7],
+                    "Value": "{{ModId}}_ClarySageShavedIce {{ModId}}_PurpleConeflowerShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jodi Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jodi", 3],
+                    "Value": "{{ModId}}_DaisyShavedIce {{ModId}}_GeraniumShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Kent Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Kent", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Kent", 7],
+                    "Value": "{{ModId}}_HoneysuckleShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Krobus Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 1],
+                    "Value": "{{ModId}}_VioletShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leah Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 3],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HoneysuckleShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leo Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 1],
+                    "Value": "{{ModId}}_HibiscusShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 9],
+                    "Value": "{{ModId}}_ClarySageShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Lewis Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lewis", 1],
+                    "Value": "{{ModId}}_GeraniumShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },{
+            "LogName": "Add Marnie Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Marnie", 1],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_HoneysuckleShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },{
+            "LogName": "Add Maru Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 1],
+                    "Value": "{{ModId}}_ClematisShavedIce {{ModId}}_PurpleConeflowerShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 9],
+                    "Value": "{{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pam Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 1],
+                    "Value": "{{ModId}}_PeonyShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 9],
+                    "Value": "{{MOdId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },{
+            "LogName": "Add Penny Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 1],
+                    "Value": "{{ModId}}_DaisyShavedIce {{ModId}}_SummerRoseShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pierre Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 9],
+                    "Value": "{{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 1],
+                    "Value": "{{ModId}}_LavenderShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Robin Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Robin", 1],
+                    "Value": "{{ModId}}_FallRoseShavedIce {{ModId}}_LilacShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sam Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 9],
+                    "Value": "{{ModId}}_GeraniumShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sandy Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 3],
+                    "Value": "{{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ChamomileShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_FallRoseShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_LavenderShavedIce {{ModId}}_LilacShavedIce {{ModId}}_PurpleConeflowerShavedIce {{ModId}}_SpringRoseShavedIce {{ModId}}_SummerRoseShavedIce {{ModId}}_FallRoseShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 9],
+                    "Value": "{{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sebastian Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 3],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_ChamomileShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_FallRoseShavedIce {{ModId}}_HoneysuckleShavedIce {{ModId}}_PurpleConeflowerShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 9],
+                    "Value": "{{ModId}}_HibiscusShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Shane Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Vincent Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 7],
+                    "Value": "{{ModId}}_BeeBalmShavedIce {{ModId}}_ChamomileShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_PurpleConeflowerShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce {{ModId}}_LavenderShavedIce {{ModId}}_LilacShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Willy Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 9],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClarySageShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce {{ModId}}_GeraniumShavedIce {{ModId}}_HibiscusShavedIce {{ModId}}_JasmineShavedIce {{ModId}}_LavenderShavedIce {{ModId}}_LilacShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Wizard Cornucopia Extended",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 1],
+                    "Value": "{{ModId}}_WinterRoseShavedIce {{ModId}}_ClarySageShavedIce",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 9],
+                    "Value": "{{ModId}}_CamelliaShavedIce {{ModId}}_CarnationShavedIce {{ModId}}_ClematisShavedIce {{ModId}}_DahliaShavedIce {{ModId}}_DaisyShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

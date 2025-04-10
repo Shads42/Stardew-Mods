@@ -1,0 +1,381 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load shaved ice objects - Gus",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "{{ModId}}_ShavedIceMachine": {
+                    "Id": "{{ModId}}_ShavedIceMachine",
+                    "ItemId": "(BC){{ModId}}_ShavedIceMachine",
+                    "ObjectInternalName": "{{ModId}}_ShavedIceMachine",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true,
+                    "Price": 6000,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_Ice": {
+                    "Id": "{{ModId}}_Ice",
+                    "ItemId": "(O){{ModId}}_Ice",
+                    "ObjectInternalName": "{{ModId}}_Ice",
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                }
+            }
+        },
+        {
+            "LogName": "Load temp shop objects - Gus",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "{{ModId}}_VanillaIceCream": {
+                    "Id": "{{ModId}}_VanillaIceCream",
+                    "ItemId": "(O){{ModId}}_VanillaIceCream",
+                    "ObjectInternalName": "{{MOdId}}_VanillaIceCream",
+                    "Price": 250,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_ChocolateIceCream": {
+                    "Id": "{{ModId}}_ChocolateIceCream",
+                    "ItemId": "(O){{ModId}}_ChocolateIceCream",
+                    "ObjectInternalName": "{{MOdId}}_ChocolateIceCream",
+                    "Price": 250,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_StrawberryIceCream": {
+                    "Id": "{{ModId}}_StrawberryIceCream",
+                    "ItemId": "(O){{ModId}}_StrawberryIceCream",
+                    "ObjectInternalName": "{{MOdId}}_StrawberryIceCream",
+                    "Price": 250,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "HasMod | contains=Shads42.SeasonalTreats": false
+            }
+        },
+        {
+            "LogName": "Load ASM recipes",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "{{ModId}}_ChocoStrawberrySundae": {
+                    "Id": "{{ModId}}_ChocoStrawberrySundae",
+                    "ItemId": "(O){{ModId}}_ChocoStrawberrySundae",
+                    "ObjectInternalName": "{{ModId}}_ChocoStrawberrySundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_DeluxeChocoScoop": {
+                    "Id": "{{ModId}}_DeluxeChocoScoop",
+                    "ItemId": "(O){{ModId}}_DeluxeChocoScoop",
+                    "ObjectInternalName": "{{ModId}}_DeluxeChocoScoop",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_DeluxeIceCreamSoda": {
+                    "Id": "{{ModId}}_DeluxeIceCreamSoda",
+                    "ItemId": "(O){{ModId}}_DeluxeIceCreamSoda",
+                    "ObjectInternalName": "{{ModId}}_DeluxeIceCreamSoda",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_GaletteIceCreamSoda": {
+                    "Id": "{{ModId}}_GaletteIceCreamSoda",
+                    "ItemId": "(O){{ModId}}_GaletteIceCreamSoda",
+                    "ObjectInternalName": "{{ModId}}_GaletteIceCreamSoda",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_IceCreamParfait": {
+                    "Id": "{{ModId}}_IceCreamParfait",
+                    "ItemId": "(O){{ModId}}_IceCreamParfait",
+                    "ObjectInternalName": "{{ModId}}_IceCreamParfait",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_MelonSundae": {
+                    "Id": "{{ModId}}_MelonSundae",
+                    "ItemId": "(O){{ModId}}_MelonSundae",
+                    "ObjectInternalName": "{{ModId}}_MelonSundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_NeopolitanScoopWaffleCone": {
+                    "Id": "{{ModId}}_NeopolitanScoopWaffleCone",
+                    "ItemId": "(O){{ModId}}_NeopolitanScoopWaffleCone",
+                    "ObjectInternalName": "{{ModId}}_NeopolitanScoopWaffleCone",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_NeopolitanSundae": {
+                    "Id": "{{ModId}}_NeopolitanSundae",
+                    "ItemId": "(O){{ModId}}_NeopolitanSundae",
+                    "ObjectInternalName": "{{ModId}}_NeopolitanSundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_OrangeSherbetSundae": {
+                    "Id": "{{ModId}}_OrangeSherbetSundae",
+                    "ItemId": "(O){{ModId}}_OrangeSherbetSundae",
+                    "ObjectInternalName": "{{ModId}}_OrangeSherbetSundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_PlainVanillaSundae": {
+                    "Id": "{{ModId}}_PlainVanillaSundae",
+                    "ItemId": "(O){{ModId}}_PlainVanillaSundae",
+                    "ObjectInternalName": "{{ModId}}_PlainVanillaSundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_RainbowSundae": {
+                    "Id": "{{ModId}}_RainbowSundae",
+                    "ItemId": "(O){{ModId}}_RainbowSundae",
+                    "ObjectInternalName": "{{ModId}}_RainbowSundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_StrawberryIceCreamSoda": {
+                    "Id": "{{ModId}}_StrawberryIceCreamSoda",
+                    "ItemId": "(O){{ModId}}_StrawberryIceCreamSoda",
+                    "ObjectInternalName": "{{ModId}}_StrawberryIceCreamSoda",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_StrawberrySyrupSundae": {
+                    "Id": "{{ModId}}_StrawberrySyrupSundae",
+                    "ItemId": "(O){{ModId}}_StrawberrySyrupSundae",
+                    "ObjectInternalName": "{{ModId}}_StrawberrySyrupSundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_VanillaIceCreamSoda": {
+                    "Id": "{{ModId}}_VanillaIceCreamSoda",
+                    "ItemId": "(O){{ModId}}_VanillaIceCreamSoda",
+                    "ObjectInternalName": "{{ModId}}_VanillaIceCreamSoda",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_WaffleCone": {
+                    "Id": "{{ModId}}_WaffleCone",
+                    "ItemId": "(O){{ModId}}_WaffleCone",
+                    "ObjectInternalName": "{{ModId}}_WaffleCone",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "HasMod | contains={{ASMId}}": true
+            }
+        },
+        {
+            "LogName": "Add more crops + ASM recipes",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "{{ModId}}_BlackCherrySundae": {
+                    "Id": "{{ModId}}_BlackCherrySundae",
+                    "ItemId": "(O){{ModId}}_BlackCherrySundae",
+                    "ObjectInternalName": "{{ModId}}_BlackCherrySundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_DoubleChocolateGelato": {
+                    "Id": "{{ModId}}_DoubleChocolateGelato",
+                    "ItemId": "(O){{ModId}}_DoubleChocolateGelato",
+                    "ObjectInternalName": "{{ModId}}_DoubleChocolateGelato",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_DoubleVanillaGelato": {
+                    "Id": "{{ModId}}_DoubleVanillaGelato",
+                    "ItemId": "(O){{ModId}}_DoubleVanillaGelato",
+                    "ObjectInternalName": "{{ModId}}_DoubleVanillaGelato",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_NuttyCrunchWaffleCone":{
+                    "Id": "{{ModId}}_NuttyCrunchWaffleCone",
+                    "ItemId": "(O){{ModId}}_NuttyCrunchWaffleCone",
+                    "ObjectInternalName": "{{ModId}}_NuttyCrunchWaffleCone",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true,
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_ChocolateSprinkleSundae": {
+                    "Id": "{{ModId}}_ChocolateSprinkleSundae",
+                    "ItemId": "(O){{ModId}}_ChocolateSprinkleSundae",
+                    "ObjectInternalName": "{{ModId}}_ChocolateSprinkleSundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true,
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_TripleStrawberrySundae": {
+                    "Id": "{{ModId}}_TripleStrawberrySundae",
+                    "ItemId": "(O){{ModId}}_TripleStrawberrySundae",
+                    "ObjectInternalName": "{{ModId}}_TripleStrawberrySundae",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "HasMod | contains={{ASMId}}": true,
+                "HasMod | contains=Cornucopia.MoreCrops": true
+            }
+        },
+        {
+            "LogName": "Add Artisan Machines recipes",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "{{ModId}}_BubblegumStripeWaffleCone": {
+                    "Id": "{{ModId}}_BubblegumStripeWaffleCone",
+                    "ItemId": "(O){{ModId}}_BubblegumStripeWaffleCone",
+                    "ObjectInternalName": "{{ModId}}_BubblegumStripeWaffleCone",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_FruitParfait": {
+                    "Id": "{{ModId}}_FruitParfait",
+                    "ItemId": "(O){{ModId}}_FruitParfait",
+                    "ObjectInternalName": "{{ModId}}_FruitParfait",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_GaletteParfait": {
+                    "Id": "{{ModId}}_GaletteParfait",
+                    "ItemId": "(O){{ModId}}_GaletteParfait",
+                    "ObjectInternalName": "{{ModId}}_GaletteParfait",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasMod | contains=Cornucopia.ArtisanMachines": true
+            }
+        },
+        {
+            "LogName": "Add Cornucopia herb pack recipes",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "{{ModId}}_MintChocolateGelato": {
+                    "Id": "{{ModId}}_MintChocolateGelato",
+                    "ItemId": "(O){{ModId}}_MintChocolateGelato",
+                    "ObjectInternalName": "{{ModId}}_MintChocolateGelato",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter | contains=Cornucopia.MoreCrops_HerbPackEnabled": true
+            }
+        },
+        {
+            "LogName": "Add Herb Pack + artisan machines",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "{{ModId}}_BlueberryMintParfait": {
+                    "Id": "{{ModId}}_BlueberryMintParfait",
+                    "ItemId": "(O){{ModId}}_BlueberryMintParfait",
+                    "ObjectInternalName": "{{ModId}}_BlueberryMintParfait",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true, 
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "HasMod | contains=Cornucopia.ArtisanMachines": true,
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter | contains=Cornucopia.MoreCrops_HerbPackEnabled": true
+            }
+        }
+    ]
+}

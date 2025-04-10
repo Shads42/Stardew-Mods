@@ -1,0 +1,149 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ShavedIceMachine", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_AvocadoShavedIce":{
+                    "Id": "{{ModId}}_AvocadoShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "AvocadoSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_AvocadoSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_AvocadoShavedIce",
+                            "ItemId": "(O){{ModId}}_AvocadoShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_CottonShavedIce":{
+                    "Id": "{{ModId}}_CottonShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "CottonSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_CottonSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CottonShavedIce",
+                            "ItemId": "(O){{ModId}}_CottonShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_KiwiShavedIce":{
+                    "Id": "{{ModId}}_KiwiShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "KiwiSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_KiwiSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_KiwiShavedIce",
+                            "ItemId": "(O){{ModId}}_KiwiShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_PearShavedIce":{
+                    "Id": "{{ModId}}_PearShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "PearSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_PearSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PearShavedIce",
+                            "ItemId": "(O){{ModId}}_PearShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_RaspberryShavedIce":{
+                    "Id": "{{ModId}}_RaspberryShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "RaspberrySyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_RaspberrySyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_RaspberryShavedIce",
+                            "ItemId": "(O){{ModId}}_RaspberryShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_WatermelonShavedIce":{
+                    "Id": "{{ModId}}_WatermelonShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "WatermelonSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_WatermelonSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_WatermelonShavedIce",
+                            "ItemId": "(O){{ModId}}_WatermelonShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                }
+            }
+        }
+    ]
+}

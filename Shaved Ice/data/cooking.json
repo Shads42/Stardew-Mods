@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add ASM recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_ChocoStrawberrySundae": "{{ModId}}_ChocolateIceCream 1 {{ModId}}_StrawberryIceCream 1/9999 9999/{{ModId}}_ChocoStrawberrySundae/null/",
+                "{{ModId}}_DeluxeChocoScoop": "{{ModId}}_ChocolateIceCream 2 245 1 /9999 9999/{{ModId}}_DeluxeChocoScoop/null/",
+                "{{ModId}}_DeluxeIceCreamSoda": "638 1 {{ModId}}_VanillaIceCream 1 {{ASMId}}_ArtisanCola 1/9999 9999/{{ModId}}_DeluxeIceCreamSoda/null/",
+                "{{ModId}}_GaletteIceCreamSoda": "{{ASMId}}_ArtisanCola 1 {{ModId}}_VanillaIceCream 1 246 1/9999 9999/{{ModId}}_GaletteIceCreamSoda/null/",
+                "{{ModId}}_IceCreamParfait": "{{ModId}}_VanillaIceCream 1 258 1/9999 9999/{{ModId}}_IceCreamParfait/null/",
+                "{{ModId}}_MelonSundae": "{{ASMId}}_MelonSyrup 1 254 1 {{ModId}}_VanillaIceCream 1/9999 9999/{{ModId}}_MelonSundae/null/",
+                "{{ModId}}_NeopolitanScoopWaffleCone": "{{ModId}}_VanillaIceCream 1 {{ModId}}_ChocolateIceCream 1 {{ModId}}_StrawberryIceCream 1 246 1/9999 9999/{{ModId}}_NeopolitanScoopWaffleCone/null/",
+                "{{ModId}}_NeopolitanSundae": "{{ModId}}_VanillaIceCream 1 {{ModId}}_ChocolateIceCream 1 {{ModId}}_StrawberryIceCream 1 /9999 9999/{{ModId}}_NeopolitanSundae/null/",
+                "{{ModId}}_OrangeSherbetSundae": "{{ASMId}}_OrangeSyrup 1 {{ModId}}_VanillaIceCream 1/9999 9999/{{ModId}}_OrangeSherbetSundae/null/",
+                "{{ModId}}_PlainVanillaSundae": "{{ModId}}_VanillaIceCream 2/9999 9999/{{ModId}}_PlainVanillaSundae/null/",
+                "{{ModId}}_RainbowSundae": "{{ASMId}}_StrawberrySyrup 1 {{ASMId}}_BlueberrySyrup 1 {{ModId}}_VanillaIceCream 1/9999 9999/{{ModId}}_RainbowSundae/null/",
+                "{{ModId}}_StrawberryIceCreamSoda": "{{ModId}}_StrawberryIceCream 1 {{ASMId}}_ArtisanCola 1/9999 9999/{{ModId}}_StrawberryIceCreamSoda/null/",
+                "{{ModId}}_StrawberrySyrupSundae": "{{ASMId}}_StrawberrySyrup 1 {{ModId}}_VanillaIceCream 1/9999 9999/{{ModId}}_StrawberrySyrupSundae/null/",
+                "{{ModId}}_VanillaIceCreamSoda": "{{ModId}}_VanillaIceCream 1 {{ASMId}}_ArtisanCola 1/9999 9999/{{ModId}}_VanillaIceCreamSoda/null/",
+                "{{ModId}}_WaffleCone": "{{ModId}}_VanillaIceCream 1 245 1 246 1/9999 9999/{{ModId}}_WaffleCone/null/"
+            },
+            "When": {
+                "HasMod | contains={{ASMId}}": true
+            }
+        },
+        {
+            "LogName": "Add More Crops + ASM recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_BlackCherrySundae": "638 1 Cornucopia_Vanilla 1 -6 1 246 1/9999 9999/{{ModId}}_BlackCherrySundae/null/",
+                "{{ModId}}_ChocolateSprinkleSundae": "Cornucopia_CocoaPod 1 {{ModId}}_VanillaIceCream 1 245 1/9999 9999/{{ModId}}_ChocolateSprinkleSundae/null/",
+                "{{ModId}}_DoubleChocolateGelato": "Cornucopia_CocoaPod 1 -5 1 -6 1/9999 9999/{{ModId}}_DoubleChocolateGelato/null/",
+                "{{ModId}}_DoubleVanillaGelato": "Cornucopia_Vanilla 1 -5 1 -6 1 /9999 9999/{{ModId}}_DoubleVanillaGelato/null/",
+                "{{ModId}}_TripleStrawberrySundae": "{{ModId}}_StrawberryIceCream 1 Cornucopia_Vanilla 1 246 1 /9999 9999/{{ModId}}_TripleStrawberrySundae/null/",
+                "{{ModId}}_NuttyCrunchWaffleCone": "Cornucopia_Peanut 1 {{ModId}}_VanillaIceCream 1 Cornucopia_CocoaPod 1/9999 9999/{{ModId}}_NuttyCrunchWaffleCone/null"
+            },
+            "When": {
+                "HasMod | contains={{ASMId}}": true,
+                "HasMod | contains=Cornucopia.MoreCrops": true
+            }
+        },
+        {
+            "LogName": "Add Artisan Machines recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_BubblegumStripeWaffleCone": "Cornucopia_ChewingGum 1 {{ModId}}_VanillaIceCream 1 245 1 246 1/9999 9999/{{ModId}}_BubblegumStripeWaffleCone/null/",
+                "{{ModId}}_FruitParfait": "638 1 Cornucopia_Vanilla 1 Cornucopia_PlainYogurt 1/9999 9999/{{ModId}}_FruitParfait/null/",
+                "{{ModId}}_GaletteParfait": "Cornucopia_CocoaPod 1 Cornucopia_Vanilla 1 246 1 Cornucopia_PlainYogurt 1/9999 9999/{{ModId}}_GaletteParfait/null/"
+            },
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasMod | contains=Cornucopia.ArtisanMachines": true
+            }
+        },
+        {
+            "LogName": "Add Corucopia herb pack recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_MintChocolateGelato": "Cornucopia_Mint 1 Cornucopia_CocoaPod 1 -5 1 -6 1/9999 9999/{{ModId}}_MintChocolateGelato/null/"
+            },
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter | contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
+            }
+        },
+        {
+            "LogName": "Add herb pack + artisan machines recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_BlueberryMintParfait": "258 1 Cornucopia_Mint 1 Cornucopia_PlainYogurt 1/9999 9999/{{ModId}}_BlueberryMintParfait/null/"
+            },
+            "When": {
+                "HasMod | contains=Cornucopia.ArtisanMachines": true,
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter | contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
+            }
+        }
+    ]
+}

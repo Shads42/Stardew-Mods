@@ -1,0 +1,103 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ShavedIceMachine", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_ElderberryShavedIce":{
+                    "Id": "{{ModId}}_ElderberryShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "ElderberrySyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_ElderberrySyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_ElderberryShavedIce",
+                            "ItemId": "(O){{ModId}}_ElderberryShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_GooseberryShavedIce":{
+                    "Id": "{{ModId}}_GooseberryShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "GooseberrySyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_GooseberrySyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_GooseberryShavedIce",
+                            "ItemId": "(O){{ModId}}_GooseberryShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_JuniperShavedIce":{
+                    "Id": "{{ModId}}_JuniperShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "JuniperSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_JuniperSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_JuniperShavedIce",
+                            "ItemId": "(O){{ModId}}_JuniperShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_PassionShavedIce":{
+                    "Id": "{{ModId}}_PassionShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "PassionSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMId}}_PassionSyrup"
+                        }
+                    ],
+                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_PassionShavedIce",
+                            "ItemId": "(O){{ModId}}_PassionShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add clover item to universals",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Love"],
+                    "Value": "{{ModId}}_CloverShavedIce ",
+                    "Delimiter": " "
+                
+                }
+            ]
+        },
+        {
+            "LogName": "Fix Krobus",
+            "Action": "EditData",
+            "Target":"Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 5],
+                    "Value": "{{ModId}}_CloverShavedIce ",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Fix Leo",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 3],
+                    "Value": "{{ModId}}_CloverShavedIce ",
+                    "Delimiter": " "
+                    
+                }
+            ]
+        }
+    ]
+}

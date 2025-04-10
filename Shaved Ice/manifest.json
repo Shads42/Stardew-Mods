@@ -1,0 +1,44 @@
+{
+    "Name": "Shaved Ice & Frozen Treats",
+    "Author": "Hadi",
+    "Version": "3.0.0",
+    "Description": "Shaved ices, sundaes, and ice cream sodas.",
+    "UniqueID": "Hadi.FrozenTreatsJA",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "UpdateKeys": [ "Nexus:5388" ],
+    "Dependencies": [
+        {
+            "UniqueID": "selph.ExtraMachineConfig",
+            "MinimumVersion": "1.11.0",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Hadi.JASoda",
+            "MinimumVersion": "3.0.0",
+            "IsRequired": true
+            
+        },
+        {
+            "UniqueID": "Shads42.ASM_FlowerPack",
+            "MinimumVersion": "1.0.0",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Cornucopia.MoreCrops",
+            "MinimumVersion": "1.5.5",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "Cornucopia.MoreFlowers",
+            "MinimumVersion": "1.5.4",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+            "MinimumVersion": "1.15.0",
+            "IsRequired": false
+        }
+    ]
+}

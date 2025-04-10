@@ -1,0 +1,175 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ShavedIceMachine", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_BlueJazzShavedIce":{
+                    "Id": "{{ModId}}_BlueJazzShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "BlueJazzSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMFId}}_BlueJazzSyrup"
+                        }
+                    ],                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_BlueJazzShavedIce",
+                            "ItemId": "(O){{ModId}}_BlueJazzShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_CrocusShavedIce":{
+                    "Id": "{{ModId}}_CrocusShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "CrocusSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMFId}}_CrocusSyrup"
+                        }
+                    ],                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CrocusShavedIce",
+                            "ItemId": "(O){{ModId}}_CrocusShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_DandelionShavedIce":{
+                    "Id": "{{ModId}}_DandelionShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "DandelionSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMFId}}_DandelionSyrup"
+                        }
+                    ],                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_DandelionShavedIce",
+                            "ItemId": "(O){{ModId}}_DandelionShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_FairyRoseShavedIce":{
+                    "Id": "{{ModId}}_FairyRoseShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "FairyRoseSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMFId}}_FairyRoseSyrup"
+                        }
+                    ],                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_FairyRoseShavedIce",
+                            "ItemId": "(O){{ModId}}_FairyRoseShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_SunflowerShavedIce":{
+                    "Id": "{{ModId}}_SunflowerShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "SunflowerSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMFId}}_SunflowerSyrup"
+                        }
+                    ],                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_SunflowerShavedIce",
+                            "ItemId": "(O){{ModId}}_SunflowerShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                },
+                "{{ModId}}_TulipShavedIce":{
+                    "Id": "{{ModId}}_TulipShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "TulipSyrupInMachine",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMFId}}_TulipSyrup"
+                        }
+                    ],                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_TulipShavedIce",
+                            "ItemId": "(O){{ModId}}_TulipShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC){{ModId}}_ShavedIceMachine", "OutputRules"],
+            "Entries": {
+                "{{ModId}}_CloverShavedIce":{
+                    "Id": "{{ModId}}_CloverShavedIce",
+                    "Triggers": [
+                        {
+                            "Id": "CloverSyrup",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ASMFId}}_CloverSyrup"
+                        }
+                    ],                    
+                    "OutputItem": [
+                        {
+                            "Id": "{{ModId}}_CloverShavedIce",
+                            "ItemId": "(O){{ModId}}_CloverShavedIce",
+                            "CustomData": {
+                                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+                            }     
+                        }
+                    ],
+                    "MinutesUntilReady": 300
+                }
+            },
+            "When": {
+                "HasMod | contains={{SVEId}}": true
+            }
+        }
+    ]
+}

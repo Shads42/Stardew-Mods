@@ -1,0 +1,121 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Demetrius fruit tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Demetrius", 1],
+                    "Value": "shaved_ice_item frozen_treats_cooking",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Emily fruit taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 5],
+                    "Value": "shaved_ice_item frozen_treats_cooking",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Haley fruit taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 1],
+                    "Value": "shaved_ice_item frozen_treats_cooking",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jas fruit taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 1],
+                    "Value": "shaved_ice_item frozen_treats_cooking",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Krobus fruit taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 5],
+                    "Value": "shaved_ice_item frozen_treats_cooking",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leah fruit taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 5],
+                    "Value": "shaved_ice_item frozen_treats_cooking",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leo fruit taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 1],
+                    "Value": "{{ModId}}_MangoShavedIce",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Add Vincent fruit taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 1],
+                    "Value": "shaved_ice_item frozen_treats_cooking",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Will fruit taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 5],
+                    "Value": "shaved_ice_item frozen_treats_cooking",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

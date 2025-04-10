@@ -1,0 +1,81 @@
+
+// item
+"{{ModId}}_": {
+    "Name": "{{ModId}}_",
+    "Type": "Basic",
+    "Category": "-26",
+    "SpriteIndex": ,
+    "DisplayName": "{{i18n:_Name}}",
+    "Description": "{{i18n:_Desc}}",
+    "Texture": "{{ModId}}/Objects_Flowers",
+    "Price": 250,
+    "Edibility": 48,
+    "ContextTags": [
+        "color_",
+        "flower_shaved_ice_item",
+        "shaved_ice_cornucopia_extra_flowers",
+        "sweet_item",
+        "dessert_item"
+    ]
+},
+
+// object recipe craft
+{
+    "itemName": " materials /Home/{{ModId}}_MachineName/true/null",
+}
+
+// big craftable
+{
+    "{{ModId}}_": {
+        "Name": "",
+        "DisplayName": "",
+        "Description": "",
+        "Texture": "Mods\\{{ModId}}\\machines",
+        "SpriteIndex": ,
+        "IsLamp": false
+    }
+}
+
+// shaved ice machine framework
+"{{ModId}}_":{
+    "Id": "{{ModId}}_",
+    "Triggers": [
+        {
+            "Id": "",
+            "Trigger": "ItemPlacedInMachine",
+            "RequiredItemId": "(O){{ASMId}}_"
+        }
+    ],
+    
+    "OutputItem": [
+        {
+            "Id": "{{ModId}}_",
+            "ItemId": "(O){{ModId}}_",
+            "CustomData": {
+                "selph.ExtraMachineConfig.RequirementId.1": "(O){{ModId}}_Ice",
+                "selph.ExtraMachineConfig.RequirementCount.1": 1,
+                "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:Msg_Ice}}"
+            }     
+        }
+    ],
+    "MinutesUntilReady": 300
+},
+
+// NPC Gift taste
+
+{
+    "LogName": "Add ",
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "TextOperations": [
+        {
+            "Operation": "Append",
+            "Target": ["Fields", ,],
+            "Value": ,
+            "Delimter": " "
+        }
+    ]
+},
+
+// cooking recipe
+"{{ModId}}_": " /9999 9999/{{ModId}}_/null/",

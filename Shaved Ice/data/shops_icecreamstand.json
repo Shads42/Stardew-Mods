@@ -1,0 +1,84 @@
+{
+    "Changes": [
+        {
+            "LogName": "load temp shop objects - ice crema stand",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["IceCreamStand", "Items"],
+            "Entries": {
+                "{{ModId}}_VanillaIceCream": {
+                    "Id": "{{ModId}}_VanillaIceCream",
+                    "ItemId": "(O){{ModId}}_VanillaIceCream",
+                    "ObjectInternalName": "{{MOdId}}_VanillaIceCream",
+                    "Price": 250,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_ChocolateIceCream": {
+                    "Id": "{{ModId}}_ChocolateIceCream",
+                    "ItemId": "(O){{ModId}}_ChocolateIceCream",
+                    "ObjectInternalName": "{{MOdId}}_ChocolateIceCream",
+                    "Price": 250,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_StrawberryIceCream": {
+                    "Id": "{{ModId}}_StrawberryIceCream",
+                    "ItemId": "(O){{ModId}}_StrawberryIceCream",
+                    "ObjectInternalName": "{{MOdId}}_StrawberryIceCream",
+                    "Price": 250,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            
+            "When": {
+                "HasMod | contains=Shads42.SeasonalTreats": false
+            }
+        },
+        {
+            "LogName": "load ice cream cones - ice cream stand more crops",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["IceCreamStand", "Items"],
+            "Entries": {
+                "{{ModId}}_NeopolitanScoopWaffleCone": {
+                    "Id": "{{ModId}}_NeopolitanScoopWaffleCone",
+                    "ItemId": "(O){{ModId}}_NeopolitanScoopWaffleCone",
+                    "ObjectInternalName": "{{ModId}}_NeopolitanScoopWaffleCone",
+                    "Price": 250,
+                    "IgnoreShopPriceModifiers": true
+                },
+                "{{ModId}}_NuttyCrunchWaffleCone":{
+                    "Id": "{{ModId}}_NuttyCrunchWaffleCone",
+                    "ItemId": "(O){{ModId}}_NuttyCrunchWaffleCone",
+                    "ObjectInternalName": "{{ModId}}_NuttyCrunchWaffleCone",
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "IsRecipe": true,
+                    "Price": 200,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true
+            }
+        },
+        {
+            "LogName": "load ice cream cones - ice cream stand artisan machines",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["IceCreamStand", "Items"],
+            "Entries": {
+                "{{ModId}}_BubblegumStripeWaffleCone": {
+                    "Id": "{{ModId}}_BubblegumStripeWaffleCone",
+                    "ItemId": "(O){{ModId}}_BubblegumStripeWaffleCone",
+                    "ObjectInternalName": "{{ModId}}_BubblegumStripeWaffleCone",
+                    "Price": 250,
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "HasMod | contains=Cornucopia.MoreCrops": true,
+                "HasMod | contains=Cornucopia.ArtisanMachines": true
+            }
+        }
+    ]
+}

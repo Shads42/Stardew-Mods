@@ -1,0 +1,35 @@
+{
+    "Changes": [
+     {
+        "LogName": "Load Machine Textures",
+        "Action": "Load",
+        "Target": "Mods/{{ModId}}/machines",
+        "FromFile": "assets/{{TargetWithoutPath}}.png"
+     },
+     {
+        "LogName": "Add machine to Big Craftables",
+        "Action": "EditData",
+        "Target": "Data/BigCraftables",
+        "Entries": {
+            "{{ModId}}_ShavedIceMachine": {
+                "Name": "{{ModId}}_ShavedIceMachine",
+                "DisplayName": "{{i18n:IceMachine_Name}}",
+                "Description": "{{i18n:IceMachine_Desc}}",
+                "Texture": "Mods\\{{ModId}}\\machines",
+                "SpriteIndex": 0,
+                "IsLamp": false
+            }
+        }
+     },
+     {
+        "LogName": "Add machine to Crafting Recipes",
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries":  {
+            "{{ModId}}_ShavedIceMachine": "335 3 334 2/Home/{{ModId}}_ShavedIceMachine/true/null"
+        }
+    
+     }
+   
+    ]
+}
