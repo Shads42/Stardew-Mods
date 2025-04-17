@@ -1,0 +1,24 @@
+{
+    "Name": "Champagne Wishes for 1.6",
+    "Author": "Fwippy and Shads42",
+    "Description": "Bubbly new crops, food, and drink recipes - now compatible with Stardew 1.6",
+    "Version": "2.1.0",
+    "UniqueID": "Shads42.ChampagneWishesContinued",
+    "MinimumApiVersion": "4.1.6",
+    "UpdateKeys": ["Nexus: 30226"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "Cornucopia.MoreCrops",
+            "MinimumVersion": "1.5.5",
+            "IsRequired": true
+        },
+        {
+            "UniqueID": "Cornucopia.ArtisanMachines",
+            "MinimumVersion": "1.0.7",
+            "IsRequired": true
+        }
+    ]
+}

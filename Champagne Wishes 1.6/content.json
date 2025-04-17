@@ -1,0 +1,33 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "LogName": "Load spritesheets",
+            "Action": "Load",
+            "Target": "Shads42.ChampagneWishesContinued/objects, Shads42.ChampagneWishesContinued/crops",
+            "FromFile": "assets//{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Data",
+            "Action": "Include",
+            "FromFile": "data/objects.json, data/crops.json, data/recipes.json, data/shops.json, data/gifttastes.json, data/mail.json, machines/keg.json"
+        },
+        {
+            "LogName": "Load Cornucopia Machines",
+            "Action": "Include",
+            "FromFile": "machines/vinegarcask.json",
+            "When": {
+                "HasReadLetter |contains=Cornucopia.ArtisanMachines_VinegarKegEnabled": true
+            }
+        },
+        {
+            "LogName": "Add Champ Vinegar to Gus Shop when no Vinegar Keg",
+            "Action": "Include",
+            "FromFile": "data/altshops.json",
+            "When":{
+                "HasReadLetter |contains=Cornucopia.ArtisanMachines_VinegarKegEnabled": false
+            }
+        }
+        
+    ]
+}

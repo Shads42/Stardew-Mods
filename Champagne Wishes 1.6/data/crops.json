@@ -1,0 +1,23 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Champagne Grape Crop",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "ChampagneWishesContinued_ChampagneGrapeTrellis": {
+                    "Seasons": ["spring"],
+                    "DaysInPhase": [1, 2, 3, 3, 3],
+                    "RegrowDays": 3,
+                    "HarvestItemId": "ChampagneWishesContinued_ChampagneGrape",
+                    "Texture": "Shads42.ChampagneWishesContinued/crops",
+                    "SpriteIndex": 0,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 2, 
+                    "ExtraHarvestChance": ".4",
+                    "IsRaised": true
+                }
+            }
+        }
+    ]
+}

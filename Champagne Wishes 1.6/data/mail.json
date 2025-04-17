@@ -1,0 +1,110 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add letters to mail",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "ChampagneWishesContinued_Leah6Hearts": "{{i18n:Mail_ChampSalad_Text}}%item cookingRecipe {{ModId}}_SaladWithChampagneVinaigrette%%[#]{{i18n:Mail_ChampSalad_Title}}",
+                "ChampagneWishesContinued_Jodi8Hearts": "{{i18n:Mail_ChampageCocktail_Text}}%item cookingRecipe {{ModId}}_ChampagneCocktail%%[#]{{i18n:Mail_ChampageCocktail_Title}}",
+                "ChampagneWishesContinued_Shane8Hearts": "{{i18n:Mail_BlackVelvet_Text}}%item cookingRecipe {{ModId}}_BlackVelvetCocktail %% [#]{{i18n:Mail_BlackVelvet_Title}}",
+                "ChampagneWishesContinued_Robin8Hearts": "{{i18n:Mail_KirImperial_Text}} %item cookingRecipe {{ModId}}_KirImperial%%[#]",
+                "ChampagneWishesContinued_Emily8Hearts": "{{i18n:Mail_KirRoyal_Text}} %item cookingRecipe {{ModId}}_KirRoyal%%[#]{{i18n:Mail_KirRoyal_Title}}",
+                "ChampagneWishesContinued_Elliott8Hearts": "{{i18n:Mail_OystersMignonette_Text}} %item cookingRecipe {{ModId}}_OystersMignonette%%[#]{{i18n:Mail_OystersMignonette_Title}}",
+                // version 2.0 letters
+                "ChampagneWishesContinued_Evelyn10Hearts": "{{i18n:Mail_ChampagneCookies_Text}} %item cookingRecipe {{ModId}}_ChampagneFrostedCookies%%[#]{{i18n:Mail_ChampangeCookies_Title}}",
+                "ChampagneWishesContinued_Pam9Hearts": "{{i18n:Mail_ChampagnePancakes_Text}} %item cookingRecipe {{ModId}}_StrawberryAndChampagnePancakes%%[#]{{i18n:Mail_ChampagnePancakes_Title}}",
+                "ChampagneWishesContinued_Gus7Hearts": "{{i18n:Mail_BliniWithCaviar_Text}} %item cookingRecipe {{ModId}}_BliniWithCaviar%%[#]{{i18n:Mail_BliniWithCaviar_Title}}",
+                "ChampagneWishesContinued_Demetrius6Hearts": "{{i18n:Mail_ChampagneSorbetto_Text}} %item cookingRecipe {{ModId}}_ChampagneSorbetto%%[#]{{i18n:Mail_ChampagneSorbetto_Title}}",
+                "ChampagneWishesContinued_Sandy6Hearts": "{{i18n:Mail_FrostedGrapes_Text}} %item cookingRecipe {{ModId}}_FrostedChampagneGrapes%%[#]{{i18n:Mail_FrostedGrapes_Title}}"
+            }
+
+        },
+        {
+            "LogName": "Add letter triggers",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "ChampagneWishesContinued_SendLeah6Hearts": {
+                    "Id": "ChampagneWishesContinued_Leah6Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Leah 1500, YEAR 2, DAY_OF_MONTH 28, SEASON WINTER, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Leah6Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Leah6Hearts now"
+                },
+                "ChampagneWishesContinued_SendJodi8Hearts": {
+                    "Id": "ChampagneWishesContinued_Jodi8Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Jodi 2000, YEAR 2, DAY_OF_MONTH 27, SEASON WINTER, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Jodi8Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Jodi8Hearts now"
+                },
+                "ChampagneWishesContinued_SendShane8Hearts": {
+                    "Id": "ChampagneWishesContinued_Shane8Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Shane 2000, YEAR 2, DAY_OF_MONTH 28, SEASON WINTER, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Shane8Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Shane8Hearts now"
+                },
+                "ChampagneWishesContinued_SendRobin8Hearts": {
+                    "Id": "ChampagneWishesContinued_Robin8Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Robin 2000, YEAR 3, DAY_OF_MONTH 28, SEASON SPRING, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Robin8Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Robin8Hearts now"
+                },
+                "ChampagneWishesContinued_SendEmily8Hearts": {
+                    "Id": "ChampagneWishesContinued_Emily8Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Emily 2000, YEAR 3, DAY_OF_MONTH 28, SEASON SPRING, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Emily8Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Emily8Hearts now"
+                },
+                "ChampagneWishesContinued_SendElliott8Hearts": {
+                    "Id": "ChampagneWishesContinued_Elliott8Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Elliott 2000, YEAR 3, DAY_OF_MONTH 28, SEASON SPRING, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Elliott8Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Elliott8Hearts now"
+                },
+                // version 2.0 events
+                "ChampagneWishesContinued_SendEvelyn10Hearts": {
+                    "Id": "ChampagneWishesContinued_Evelyn10Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Evelyn 2500, YEAR 2, DAY_OF_MONTH 28, SEASON WINTER, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Evelyn10Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Evelyn10Hearts"
+                },
+                "ChampagneWishesContinued_SendPam9Hearts": {
+                    "Id": "ChampagneWishesContinued_Pam9Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Pam 2250, YEAR 2, DAY_OF_MONTH 28, SEASON WINTER, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Pam9Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Pam9Hearts"
+                },
+                "ChampagneWishesContinued_SendGus7Hearts": {
+                    "Id": "ChampagneWishesContinued_Gus7Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Gus 1750, YEAR 2, DAY_OF_MONTH 25, SEASON WINTER, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Gus7Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Gus7Hearts"
+                },
+                "ChampagneWishesContinued_SendDemetrius6Hearts": {
+                    "Id": "ChampagneWishesContinued_Demetrius6Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Demetrius 1500, YEAR 3, DAY_OF_MONTH 28, SEASON SPRING, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Demetrius6Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Demetrius6Hearts"
+                },
+                "ChampagneWishesContinued_SendSandy6Hearts": {
+                    "Id": "ChampagneWishesContinued_Sandy6Hearts",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sandy 1500, YEAR 3, DAY_OF_MONTH 28, SEASON SPRING, !PLAYER_HAS_MAIL Current ChampagneWishesContinued_Sandy6Hearts",
+                    "HostOnly": false,
+                    "Action": "AddMail Current ChampagneWishesContinued_Sandy6Hearts"
+                }
+
+            }
+        }
+    ]
+}

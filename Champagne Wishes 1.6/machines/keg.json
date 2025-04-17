@@ -1,0 +1,35 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Champagne to Keg Output",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)12", "OutputRules"],
+            "Entries": {
+                "ChampagneWishesContinued_Champagne": {
+                    "Id": "ChampagneWishesContinued_Champagne",
+                    "Triggers": [
+                        {
+                            "Id": "ChampagneGrapePlacedInMachine",
+                            "RequiredItemId": "ChampagneWishesContinued_ChampagneGrape",
+                            "Trigger": "ItemPlacedInMachine"
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "ChampagneWishesContinued_Champagne",
+                            "ItemId": "(O)ChampagneWishesContinued_Champagne"
+                        }
+                    ],
+                    "MinutesUntilReady": 6000
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id": "ChampagneWishesContinued_Champagne",
+                    "ToPosition": "Top"
+                }
+            ]
+        }
+    ]
+}

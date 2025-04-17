@@ -1,0 +1,670 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add universal tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Neutral"],
+                    "Value": "ChampagneWishesContinued_ChampangeGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_ChampagneFrostedCookies ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+            
+        },
+        {
+            "LogName" : "Add Abigail gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 3],
+                    "Value": "ChampagneWishesContinued_ChampangeGrape ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Abigail", 5],
+                    "Value": "ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Alex gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", 3],
+                    "Value": "ChampagneWishesContinued_ChampangeGrape",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Alex", 5],
+                    "Value": "ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes Champagne",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Caroline gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Caroline", 1],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Caroline", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Clint gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 3],
+                    "Value": "ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_KirImperial ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Clint", 7],
+                    "Value": "ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Demetrius gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Demetrius", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Demetrius", 3],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Dwarf gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Dwarf", 5],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampangeVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Elliot gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", 1],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Elliott", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_StrawberryAndChampagnePancakes ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Emily gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 1],
+                    "Value": "ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Emily", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Evelyn gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Evelyn", 3],
+                    "Value": "ChampagneWishesContinued_ChampangeGrape ChampagneWishesContinued_Champagne",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add George gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_SaladWithChampagneVinaigrette",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "George", 5],
+                    "Value": "ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Gus gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Gus", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_ChampagneVinager ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Haley gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneSorbetto",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 3],
+                    "Value": "ChampagneWishesContinued_Champagne",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Haley", 5],
+                    "Value": "ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_KirImperial ChampagneWishesContinued_OystersMignonette",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Harvey gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 3],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_OystersMignonette",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Harvey", 5],
+                    "Value": "ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jas gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jas", 7],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Jodi gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jodi", 1],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Jodi", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Kent gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Kent", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrapes ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Krobus gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Krobus", 5],
+                    "Value": "ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leah gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_SaladWithChampagneVinaigrette",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 3],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_OystersMignonette",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 5],
+                    "Value": "ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leah", 7],
+                    "Value": "ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Leo gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 5],
+                    "Value": "ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Leo", 7],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Lewis gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Lewis", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Linus gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Linus", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Linus", 5],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Marnie gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Marnie", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Maru gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Maru", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pam gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 1],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_StrawberryAndChampagnePancakes ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pam", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Penny gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 5],
+                    "Value": "ChampagneWishesContinued_Champagne ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_KirImperial",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Penny", 7],
+                    "Value": "ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Pierre gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Pierre", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_Champagne ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Robin gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Robin", 1],
+                    "Value": "ChampagneWishesContinued_KirImperial ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Robin", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sam gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sam", 5],
+                    "Value": "ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sandy gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 1],
+                    "Value": "ChampagneWishesContinued_StrawberryAndChampagnePancakes ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sandy", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Sebastian gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Sebastian", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_FrostedChampagneGrapes ChampagneWishesContinued_OystersMignonette",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Shane gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 1],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Shane", 3],
+                    "Value": "ChampagneWishesContinued_SaladWithChampagneVinaigrette",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Vincent gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 3],
+                    "Value": "ChampagneWishesContinued_FrostedChampagneGrapes",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Vincent", 7],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_Champagne ChampagneWishesContinued_ChampagneVinegar ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_ChampagneCocktail ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_KirImperial ChampagneWishesContinued_KirRoyal ChampagneWishesContinued_OystersMignonette ChampagneWishesContinued_SaladWithChampagneVinaigrette ChampagneWishesContinued_StrawberryAndChampagnePancakes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Willy gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 1],
+                    "Value": "ChampagneWishesContinued_BliniWithCaviar ChampagneWishesContinued_OystersMignonette",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape ChampagneWishesContinued_BlackVelvetCocktail ChampagneWishesContinued_ChampagneCocktail",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 5],
+                    "Value": "ChampagneWishesContinued_ChampagneSorbetto ChampagneWishesContinued_StrawberryAndChampagnePancakes ChampagneWishesContinued_ChampagneFrostedCookies",
+                    "Delimiter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Willy", 7],
+                    "Value": "ChampagneWishesContinued_FrostedChampagneGrapes",
+                    "Delimiter": " "
+                }
+            ]
+        },
+        {
+            "LogName": "Add Wizard gift tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "Wizard", 3],
+                    "Value": "ChampagneWishesContinued_ChampagneGrape",
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}

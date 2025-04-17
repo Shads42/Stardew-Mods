@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add recipes to Saloon",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Saloon", "Items"],
+            "Entries": {
+                "ChampagneWishesContinued_ChampagneVinegar": {
+                    "Id": "ChampagneWishesContinued_ChampagneVinegar",
+                    "ItemId": "(O)ChampagneWishesContinued_ChampagneVinegar",
+                    "Price": 325,
+                    "Condition": "YEAR 3",
+                    "IgnoreShopPriceModifiers": true,
+                    "MoveEntries": [
+                        {
+                            "Id": "ChampagneWishesContinued_ChampagneVinegar",
+                            "ToPosition": "Top"
+                        }
+                    ]
+                }
+            }
+        }    
+    ]
+}

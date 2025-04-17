@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add cooking recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_BlackVelvetCocktail": "ChampagneWishesContinued_Champagne 1 Cornucopia_Stout 1/9999 9999/ChampagneWishesContinued_BlackVelvetCocktail 1/null/",
+                "{{ModId}}_BliniWithCaviar": "Cornucopia_Buckwheat 1 Cornucopia_RedOnion 1 Cornucopia_Chives 1 -5 1 445 1/9999 9999/ChampagneWishesContinued_BliniWithCaviar 1/null/",
+                "{{ModId}}_ChampagneCocktail": "ChampagneWishesContinued_Champagne 1 348 1 591 1 638 1 Cornucopia_OrangeZest 1/9999 9999/ChampagneWishesContinued_ChampagneCocktail 1/null/",
+                "{{ModId}}_ChampagneSorbetto": "ChampagneWishesContinued_Champagne 1 84 1/9999 9999/ChampagneWishesContinued_ChampagneSorbetto 1/null/",
+                "{{ModId}}_FrostedChampagneGrapes": "ChampagneWishesContinued_ChampagneGrape 1 ChampagneWishesContinued_Champagne 1 245 1/9999 9999/ChampagneWishesContinued_FrostedChampagneGrapes 1/null/",
+                "{{ModId}}_KirImperial": "ChampagneWishesContinued_Champagne 1 348 1 Cornucopia_Raspberry 1/9999 9999/ChampagneWishesContinued_KirImperial 1/null/",
+                "{{ModId}}_KirRoyal": "ChampagneWishesContinued_Champagne 1 Cornucopia_BlackCurrants 2/9999 9999/ChampagneWishesContinued_KirRoyal/null/",
+                "{{ModId}}_OystersMignonette": "ChampagneWishesContinued_ChampagneVinegar 1 Cornucopia_Shallot Cornucopia_Pepper 723 3/9999 9999/ChampagneWishesContinued_OystersMignonette/null/",
+                "{{ModId}}_SaladWithChampagneVinaigrette": "250 1 284 1 426 1 635 1 247 1 ChampagneWishesContinued_ChampagneVinegar 1/9999 9999/ChampagneWishesContinued_SaladWithChampagneVinaigrette 1/null/",
+                "{{ModId}}_ChampagneFrostedCookies": "ChampagneWishesContinued_Champagne 1 223 1 245 1 -6 1/9999 9999/ChampagneWishesContinued_ChampagneFrostedCookies/null/",
+                "{{ModId}}_StrawberryAndChampagnePancakes": "ChampagneWishesContinued_Champagne 1 400 2 211 1/9999 9999/ChampagneWishesContinued_StrawberryAndChampagnePancakes/null/"
+            }
+        }
+    ]
+}

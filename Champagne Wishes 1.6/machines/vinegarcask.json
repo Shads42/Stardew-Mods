@@ -1,0 +1,29 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Champagne Vinegar to Vinegar Cask Output",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)Cornucopia_VinegarKeg", "OutputRules"],
+            "Entries": {
+                "ChampagneWishesContinued_ChampagneVinegar": {
+                    "Id": "ChampagneWishesContinued_ChampagneVinegar",
+                    "Triggers": [
+                        {
+                            "Id": "ChampGrapesInVinegarKeg",
+                            "RequiredItemId": "ChampagneWishesContinued_ChampagneGrape",
+                            "Trigger": "ItemPlacedInMachine"
+                        }
+                    ],
+                    "OutputItem": [
+                            {
+                                "Id": "ChampagneWishesContinued_ChampagneVinegar",
+                                "ItemId": "(O)ChampagneWishesContinued_ChampagneVinegar"
+                            }
+                        ],
+                    "MinutesUntilReady": 2360
+                }
+            }
+        }
+    ]
+}

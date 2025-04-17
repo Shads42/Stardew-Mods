@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add seeds to pierre's shop",
+            "Action": "EditData",
+            "Target":"Data/Shops",
+            "TargetField":["SeedShop", "Items"],
+            "Entries": {
+                "ChampagneWishesContinued_ChampagneGrapeTrellis": {
+                    "Id": "ChampagneWishesContinued_ChampagneGrapeTrellis",
+                    "ItemId": "(O)ChampagneWishesContinued_ChampagneGrapeTrellis",
+                    "Price": 175,
+                    "IgnoreShopPriceModifiers": true,
+                    "Condition": "SEASON SPRING, YEAR 3",
+                    "MoveEntries": [
+				        {
+					        "Id": "ChampagneWishesContinued_ChampagneGrapeTrellis",
+					        "BeforeId": "GrassStarter"
+				        }
+                    ]
+                }
+                
+            }
+        }
+    ]
+}
