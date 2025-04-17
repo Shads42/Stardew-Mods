@@ -1,0 +1,63 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add letters to mail",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "KimchiMakerContinued_MomCrock": "{{i18n:Mail_Crock_Text}}%item bigobject Shads42.KimchiMakerContinued_Onggi%%[#]{{i18n:Mail_Crock_Title}}",
+                "KimchiMakerContinued_MomKimchiRice": "{{i18n:Mail_KimchiRice_Text}}%item KimchiMakerContinued_KimchiFriedRice%%[#]{{i18n:Mail_KimchiRice_Title}}",
+                "KimchiMakerContinued_MomKimchiStew": "{{i18n:Mail_KimchiStew_Text}}%item KimchiMakerContinued_KimchiTunaStew%%[#]{{i18n:Mail_KimchiStew_Title}}"
+            }
+        },
+        {
+            "LogName": "Add letter triggers",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "KimchiMakerContinued_SendMomCrockFall": {
+                    "Id": "KimchiMakerContinued_MomCrockFall",
+                    "Trigger": "DayEnding",
+                    "Condition": "YEAR 2, SEASON Fall, DAY_OF_MONTH 6, !PLAYER_HAS_MAIL Current KimchiMakerContinued_MomCrock",
+                    "HostOnly": false,
+                    "Action": "AddMail Current KimchiMakerContinued_MomCrock now"  
+                },
+                "KimchiMakerContinued_ResendMomCrockFall": {
+                    "Id": "KimchiMakerContinued_ResendMomCrockFall",
+                    "Trigger": "DayEnding",
+                    "Condition": "YEAR 2, SEASON Fall, DAY_OF_MONTH 27, !PLAYER_HAS_MAIL Current KimchiMakerContinued_MomCrock",
+                    "HostOnly": false,
+                    "Action": "AddMail Current KimchiMakerContinued_MomCrock now"  
+                },
+                "KimchiMakerContinued_SendMomCrockWinter": {
+                    "Id": "KimchiMakerContinued_MomCrockWinter",
+                    "Trigger": "DayEnding",
+                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 6, !PLAYER_HAS_MAIL Current KimchiMakerContinued_MomCrock",
+                    "HostOnly": false,
+                    "Action": "AddMail Current KimchiMakerContinued_MomCrock now"  
+                },
+                "KimchiMakerContinued_ResendMomCrockWinter": {
+                    "Id": "KimchiMakerContinued_ResendMomCrockWinter",
+                    "Trigger": "DayEnding",
+                    "Condition": "YEAR 2, SEASON Winter, DAY_OF_MONTH 27, !PLAYER_HAS_MAIL Current KimchiMakerContinued_MomCrock",
+                    "HostOnly": false,
+                    "Action": "AddMail Current KimchiMakerContinued_MomCrock now"  
+                },
+                "KimchiMakerContinued_SendMomKimchiRice": {
+                    "Id": "KimchiMakerContinued_SendMomKimchiRice",
+                    "Trigger": "DayEnding",
+                    "Condition": "YEAR 1, SEASON FALL, DAY_OF_MONTH 13, !PLAYER_HAS_MAIL Current KimchiMakerContinued_MomKimchiRice",
+                    "HostOnly": false,
+                    "Action": "AddMail Current KimchiMakerContinued_MomKimchiRice now"
+                },
+                "KimchiMakerContinued_SendMomKimchiStew": {
+                    "Id": "KimchiMakerContinued_SendMomKimchiStew",
+                    "Trigger": "DayEnding",
+                    "Condition": "YEAR 1, SEASON WINTER, DAY_OF_MONTH 13, !PLAYER_HAS_MAIL Current KimchiMakerContinued_MomKimchiStew",
+                    "HostOnly": false,
+                    "Action": "AddMail Current KimchiMakerContinued_MomKimchiStew now"
+                }
+            }
+        }
+    ]
+}
