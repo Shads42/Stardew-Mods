@@ -1,0 +1,146 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Enable Breads and Buns": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds a multitude of breads to the game in the form of cooking recipes"
+        },
+        "Enable Cakes and Cream": {
+            "AllowValues":"true, false",
+            "Default": "true",
+            "Description": "Adds a multitude of cakes and sweetened cream to the game in the form of cooking recipes"
+        },
+        "Enable Puffs and Pastries": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds a multitude of various pastries to the game in the form of cooking recipes"
+        },
+        "Enable Jams and Pies": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds fruit jams and fruit pies to the game as artisan goods"
+        },
+        "Enable Pizza": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Adds a variety of pizzas to the game as artisan goods"
+        },
+        "Breads and Buns: Chef's Selection": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Adds a carefully curated selection of breads to the game. It's less overwhelming than the default Breads and Buns"
+        },
+        "Breads and Buns: Artisan Goods": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Converts the breads added by this mod from cooking recipes to artisan goods"
+        },
+        "Pizza: Simple Pizza": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Simplifies the pizza added by this mod by removing the sliced variants"
+        },
+        "Cakes and Creams: Artisan Goods": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "Converts the cakes added by this mod from cooking recipes to artisan goods."
+        }
+
+    },
+    "Changes": [
+        {
+            "LogName": "Load overall spritesheets",
+            "Action": "Include",
+            "Target": "{{ModId}}/objects, {{ModId}}/machines",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        // breads and buns actions
+        {
+            "LogName": "Load Breads and Buns crop sprites",
+            "Action": "Include",
+            "Target": "{{ModId}}/crops",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Load Breads and Buns universal files",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Breads and Buns": true                
+            }
+        },
+        {
+            "LogName": "Load Breads and Buns cooking recipes",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Breads and Buns": true,
+                "Breads and Buns: Artisan Goods": false
+            }
+        },
+        {
+            "LogName": "Load Breads and Buns Artisan Goods",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Breads and Buns": true,
+                "Breads and Buns: Artisan Goods": true
+            }
+        },
+        // cakes and creams
+        {
+            "LogName": "Load Cakes and Cream universal files",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Cakes and Cream": true
+            }
+        },
+        {
+            "LogName": "Load Cakes and Cream cooking recipes",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Cakes and Cream": true,
+                "Cakes and Cream: Artisan Goods": false
+            }
+        },
+        {
+            "LogName": "Load Cakes and Cream artisan goods",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Cakes and Cream": true,
+                "Cakes and Cream: Artisan Goods": true
+            }
+        },
+        // add jams and pies
+        {
+            "LogName": "Load Jams and Pies universal files",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Jams and Pies": true
+            }
+        },
+        // add puffs and pastries
+        {
+            "LogName": "Load Puffs and Pastries universal files",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Puffs and Pastries": true
+            }
+        },
+        // add pizzas
+        {
+            "LogName": "Load pizza universal files",
+            "Action": "Include",
+            "FromFile": "",
+            "When": {
+                "Enable Pizza": true
+            }
+        }
+    ]
+}

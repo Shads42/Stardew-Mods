@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add universal breads and buns objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {}
+        },
+        {
+            "LogName": "Add extra bread objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "When": {
+                "Breads and Buns: Chefs Selection": false
+            },
+            "Entries": {
+
+            }
+        }
+    ]
+}

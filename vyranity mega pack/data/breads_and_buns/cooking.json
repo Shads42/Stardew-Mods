@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add universal breads and buns recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {}
+        },
+        {
+            "LogName": "Add extra bread recipes",
+            "Action": "EditData",
+            "Target": "Data/Cooking Recipes",
+            "When": {
+                "Breads and Buns: Chefs Selection": false
+            },
+            "Entries": {
+                
+            }
+        }
+    ]
+}
