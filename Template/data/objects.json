@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_": {
+                    "Name": "{{ModId}}_",
+                    "DisplayName": "{{i18n:_Name}}",
+                    "Description": "{{i18n:_Desc}}",
+                    "Texture": "{{ModId}}/Objects",
+                    "SpriteIndex": ,
+                    "Price": ,
+                    "Edibility": ,
+                    "Type": "Basic",
+                    "Category": -1,
+                    "IsDrink": false,   // optional
+                    "ContextTags": [
+                        "color_",       // for dying
+                        "_item",        // just for mods
+                        "universal_"    // for gift tastes
+                    ],
+                    "Buffs": [
+                        {
+                            "BuffId": ,
+                            "IconTexture": null,    // used for custom icon
+                            "IconSpriteIndex": 0,   // used for custom icon
+                            "Duration": ,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0,
+                                "FishingLevel": 0,
+                                "MiningLevel": 0,
+                                "LuckLevel": 0,
+                                "ForagingLevel": 0,
+                                "MaxStamina": 0,
+                                "MagneticRadius": 0,
+                                "Speed": 0,
+                                "Defense": 0,
+                                "Attack": 0
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

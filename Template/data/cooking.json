@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add cooking recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                // change recipe unlock condition based on default/friendship/experience/shop
+                "{{ModId}}_": "[ingredients]/9999 9999/{{ModId}}_/null"
+            }
+        }
+    ]
+}

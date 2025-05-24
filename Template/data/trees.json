@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add fruit trees to game",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "{{ModId}}_Sapling": {
+                    "DisplayName": "{{i18n:Sapling_Name",
+                    "Seasons": ["spring", "summer", "fall", "winter"],
+                    "Fruit": [{"ItemId": "{{ModId}}_"}],
+                    "Texture": "{{ModId}}/FruitTrees",
+                    "TextureSpriteRow": 
+                }
+            }
+        }
+    ]
+}

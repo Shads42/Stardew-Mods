@@ -1,0 +1,55 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add universal gift taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_"],
+                    "Value": "",
+                    "Delimeter": " "
+                }
+            ]
+        },
+        // NPC gift tastes for specific npc
+        {
+            "LogName": "Add gift taste for ",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", 1],
+                    "Value": "",
+                    "Delimeter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", 3],
+                    "Value": "",
+                    "Delimeter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", 5],
+                    "Value": "",
+                    "Delimeter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", 7],
+                    "Value": "",
+                    "Delimeter": " "
+                },
+                {
+                    "Operation": "Append",
+                    "Target": ["Fields", "", 9],
+                    "Value": "",
+                    "Delimeter": " "
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add forage to ",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": ["", "Forage"],
+            "Entries": {
+                "(O){{ModId}}_": {
+                    "Chance": 0.5,
+                    "ItemId": "(O){{ModId}}_"
+                }
+            }
+        }
+    ]
+}

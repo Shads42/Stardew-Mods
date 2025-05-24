@@ -1,0 +1,4 @@
+{
+    // can't have : in the config setting's name
+    "Config Name 1": "true"
+}

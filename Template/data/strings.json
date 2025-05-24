@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Strings to game",
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "{{ModId}}_String": "{{i18n:_Flavored}}"
+            }
+        }
+    ]
+}

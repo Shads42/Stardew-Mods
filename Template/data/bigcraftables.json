@@ -1,0 +1,32 @@
+// use this to create big craftables 
+{
+    "Changes": [
+        {
+           "LogName": "Add machines to big craftables", 
+           "Action": "EditData",
+           "Target": "Data/BigCraftables",
+           "Entries": {
+                "{{ModId}}_": {
+                    "Name": "{{ModId}}_",
+                    "DisplayName": "{{i18n:_Name}}",
+                    "Description": "{{i18n:_Desc}}",
+                    "Texture": "{{ModId}}/machines",
+                    "SpriteIndex": ,
+                    "IsLamp": false
+                }
+            }
+        },
+        {
+            "LogName": "Add machine recipes to crafting",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                // format: materials, location, name, true, unlock conditions
+                // if unlocked in shop, use null
+                // If unlocked at start, use default
+                // if unlocked via levels, see example
+                "{{ModId}}_": "materials/home/{{ModId}}_/true/null"
+            }
+        }
+    ]
+}

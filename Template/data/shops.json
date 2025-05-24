@@ -1,0 +1,29 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Shop Objects - ",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["", "Items"],
+            "Entries": {
+                "{{ModId}}_": {
+                    "Id": "{{ModId}}_",
+                    "ItemId": "{{ModId}}_",
+                    "AvailableStock": ,    // set to 1 if recipe
+                    "AvailableStockLimit": "Player", // limit purchase to person with mod 
+                    "Price": ,
+                    "IsRecipe": true,   // defaults to false
+                    "IgnoreShopPriceModifiers": true 
+                }
+            },
+            "MoveEntries": [
+                {
+                    "Id": "{{ModId}}_",
+                    "ToPosition": "Top"
+                    // "BeforeId":
+                    // "AfterId":
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+This file serves as a placeholder to keep the assets folder open in the template 
+
+GRID SIZES FOR ITEMS 
+
+objects: 16x16
+machines 16x32
+crops: 16x32 per phase 
+trees: 
+

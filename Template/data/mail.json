@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add letters to mail",
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                // attach item
+                "{{ModId}}_": "{{i18n:MailText_}}%item {{ModId}}_%%[#]{{i18n:MailTitle_}}",
+                // attach cooking recipe
+                "{{ModId}}_": "{{i18n:MailText_}}%item cookingRecipe {{ModId}}_%%[#]{{i18n:MailTitle_}}",
+                // attach big craftable
+                "{{ModId}}_": "{{i18n:MailText_}}%item bigItem {{ModId}}_%%[#]{{i18n:MailTitle_}}",
+            }
+        },
+        {
+            "LogName": "Add letter triggers",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Send": {
+                    "Id": "{{ModId}}_",  // replace with letter id
+                    "Trigger": "DayEnding",
+                    "Condition": "YEAR 1, SEASON Spring, DAY_OF_MONTH 1, !PLAYER_HAS_MAIL Current {{ModId}}_",
+                    "HostOnly": false,
+                    "Action": "AddMail Current {{ModId}}_ now"
+                }
+            }
+        }
+    ]
+}

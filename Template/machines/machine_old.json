@@ -1,0 +1,84 @@
+// use this file as a template for adding items to a machine added by a different mod/base game
+{
+    "Changes": [
+        {
+            "LogName": "Add to ",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)", "OutputRules"],   // add machine name after BC
+            "Entries": {
+                "(BC){{ModId}}_": {
+                
+                    // regular item
+                    "{{ModId}}_:" {
+                        "Id": "{{ModId}}_",
+                        "Triggers": [
+                            // trigger that uses one item
+                            {
+                                "Id": "PlacedInMachine",
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredItemId": "(O)"                    
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "{{ModId}}_",
+                                "ItemId": "(O){{ModId}}_",
+                                "CustomData": {
+                                    "{{selphId}}.1": "(O)",
+                                    "{{selphNum}}.1": 2,
+                                    "{{selphTag}}.2": "",
+                                    "{{selphNum}}.2": 1,
+                                    "{{selphMsg}}": "{{i18n:Msg_}}"
+                                }
+                            }
+                        ],
+                        "MinutesUntilReady": 1000
+                    },
+                    // flavored item 
+                    "{{ModId}}_":{
+                        "Id": "{{ModId}}_",
+                        "Triggers": [
+                            {
+                                "Id": "PlacedInMachine",
+                                "Trigger": "ItemPlacedInMachine",
+                                "RequiredTags": ["category_"]
+                            }
+                        ],
+                        "OutputItem": [
+                            {
+                                "Id": "{{ModId}}_",
+                                "ItemId": "(O){{ModId}}_",
+                                "ObjectInternalName": "{0} {{ModId}}_",
+                                "ObjectDisplayName": "[LocalizedText Strings/Objects:{{ModId}}_String %PRESERVED_DISPLAY_NAME]",
+                                "PreserveId": "DROP_IN",
+                                "CopyPrice": true,
+                                "PriceModifiers": [
+                                    {
+                                        "Id": "{{ModId}}_",
+                                        "Modification": "Multiply",
+                                        "Amount": 1
+                                    },
+                                    {
+                                        "Id": "{{ModId}}_",
+                                        "Modification": "Add",
+                                        "Amount": 0
+                                    }
+                                ],
+                                "CustomData": {
+                                    "{{selphId}}.1": "(O)",
+                                    "{{selphNum}}.1": 2,
+                                    "{{selphTag}}.2": "",
+                                    "{{selphNum}}.2": 1,
+                                    "{{selphMsg}}": "{{i18n:Msg_}}",
+                                    "selph.ExtraMachineConfig.CopyColor": true
+                                }
+                            }
+                        ],
+                        "MinutesUntilReady": 1000
+                    }
+                }
+            }
+        }
+    ]
+}

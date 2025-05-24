@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add seasonal crops",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "{{ModId}}_Seeds": {
+                    "Seasons": ["spring", "summer", "fall", "winter"],
+                    "DaysInPhase": [],
+                    "RegrowDays": 0,
+                    "HarvestItemId": "{{ModId}}_",
+                    "Texture": "{{ModId}}_/Crops",
+                    "SpriteIndex": 0,
+                    "HarvestMinStack": 1,
+                    "HarvestMaxStack": 2,
+                    "ExtraHarvestChance": ".5",
+                    "IsRaised": true,           // grows on trellis
+                    "IsPaddyCrop": true,        // frows faster near water
+                    "HarvestMethod": "Scythe"   // harvests only with scythe
+                }
+            }
+        }
+    ]
+}

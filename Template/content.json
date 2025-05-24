@@ -1,0 +1,68 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "": { // Name of config setting defined in config.json
+                "AllowValues": "true, false",
+                "Default": "true",
+                "Description": ""   // replace with description of config setting
+            }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "CornId",   
+            "Value": "Cornucopia"
+        },
+        {
+            "Name": "WAGId",
+            "Value": "Wildflour.AtelierGoods"
+        },
+        {
+            "Name": "AlchId",
+            "Value": "Wildflour.SASS"
+        },
+        {
+            "Name": "SVEId",
+            "Value": "FlashShifter.StardewValleyExpandedCP"
+        },
+        {
+            "Name": "selphId",
+            "Value": "selph.ExtraMachineConfig.RequirementId"
+        },
+        {
+            "Name": "selphNum",
+            "Value": "selph.ExtraMachineConfig.RequirementCount"
+        },
+        {
+            "Name": "selphTag",
+            "Value": "selph.ExtraMachineConfig.RequirementTags"
+        },
+        {
+            "Name": "selphMsg",
+            "Value": "selph.ExtraMachineConfig.RequirementInvalidMsg"
+        },
+        {
+            "Name": "mistId",
+            "Value": "mistyspring.ItemExtensions"
+        }
+    ],
+    "Changes": [
+        // load assets
+        {
+            "LogName": "Load spritesheets",
+            "Action": "Load",
+            "Target": "{{ModId}}/objects, {{ModId}}/machines",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+        // include files
+        {
+            "LogName": "Add non machine files",
+            "Action": "Include",
+            "FromFile": "data/bigcraftables.json, data/crops.json, data/trees.json, data/cooking.json, data/gifts.json, data/gifts.json, data/strings.json, data/shops.json, data/mail.json"
+        },
+        {
+            "LogName": "Add machine files",
+            "Action": "Include",
+            "FromFile": "machines/machine_new.json, machines/machine_old.json"
+        }
+    ]
+}

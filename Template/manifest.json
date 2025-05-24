@@ -1,0 +1,24 @@
+{
+    "Name": "",
+    "Author": "Shads42",
+    "Description": "",
+    "Version": "0.0.1",
+    "MinimumApiVersion": "4.2.1",
+    "UniqueId": "Shads42.",
+    "UpdateKeys": ["Nexus:0000"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+			"UniqueID": "selph.ExtraMachineConfig",
+            "MinimumVersion": "1.15.0",
+			"IsRequired": true
+		},
+        {
+            "UniqueID": "spacechase0.GenericModConfigMenu",
+            "MinimumVersion": "1.14.1",
+            "IsRequired": true
+        }
+    ]
+}

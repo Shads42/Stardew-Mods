@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/CropExtensionData",
+            "Entries": {
+                "{{ModId}}_Seeds": {
+                    "YieldOverrides": {
+                        // place the number of the phase that you harvest in the empty quotes
+                        "": {
+                            "IgnoreDefaultDrops": false,
+                            "Drops": [
+                                {
+                                    "Id": "",
+                                    "ItemId": "(O){{ModId}}_",
+                                    "PerItemCondition": "RANDOM 0.25"
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

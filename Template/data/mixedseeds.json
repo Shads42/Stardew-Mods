@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add items to mixed seeds",
+            "Target": "Mods/{{mistId}}/MixedSeeds",
+            "Entries": {
+                // standard mixed seeds
+                "770": [
+                    {
+                        "ItemId": "{{ModId}}_",
+                        "Condition": "!LOCATION_NAME Here IslandWest, ANY \"LOCATION_SEASON Here [replace with season]\" \"LOCATION_IS_INDOORS HERE\""
+                    }
+                ]
+            }
+        }
+    ]
+}
